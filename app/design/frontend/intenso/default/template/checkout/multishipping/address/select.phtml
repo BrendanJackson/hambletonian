@@ -1,0 +1,45 @@
+<?php
+/**
+ * Intenso Premium Theme
+ *
+ * @category    design
+ * @package     intenso_default
+ * @copyright   Copyright (c) 2014-2017 Intenso (https://www.getintenso.com)
+ * @license     http://getintenso.com/license
+ */
+?>
+<?php echo $this->getMessagesBlock()->toHtml() ?>
+<div class="row flush multiple-checkout">
+    <div class="small-12 checkout-multishipping columns">
+        <div class="page-title">
+            <h2 class="center" data-role="page-title"><?php echo $this->__('Change Billing Address') ?></h2>
+        </div>
+        <div class="form-box wide">
+            <div class="multiple-checkout">
+                <div class="row">
+                    <div class="title-buttons">
+                        <button type="button" title="<?php echo Mage::helper('core')->quoteEscape($this->__('Add New Address')) ?>" class="button tiny secondary" onclick="setLocation('<?php echo $this->getAddNewUrl() ?>')"><span><span><?php echo $this->__('Add New Address') ?></span></span></button>
+                    </div>
+                    <?php foreach ($this->getAddressCollection() as $_address): ?>
+                    <div class="small-12 columns">
+                        <h3><a class="icon-edit" href="<?php echo $this->getEditAddressUrl($_address) ?>" title="<?php echo $this->__('Edit Address') ?>"><span class="hide"><?php echo $this->__('Edit Address') ?></span></a> <span class="separator">|</span> <a href="<?php echo $this->getSetAddressUrl($_address) ?>"><strong><?php echo $this->__('Select Address') ?></strong></a></h3>
+                        <address>
+                            <?php echo $_address->format('html') ?>
+                        </address>
+                        <?php if($this->isAddressDefaultBilling($_address)): ?>
+                           <br/><strong><?php echo $this->__('Default Billing') ?></strong>
+                        <?php endif; ?>
+                        <?php if($this->isAddressDefaultShipping($_address)): ?>
+                            <br/><strong><?php echo $this->__('Default Shipping') ?></strong>
+                        <?php endif; ?>
+                        <br/><br/><br/>
+                    </div>
+                    <?php endforeach; ?>
+                </div>
+                <div class="buttons-set">
+                    <a class="arrow-left" href="<?php echo $this->getBackUrl() ?>"><?php echo $this->__('Back to Billing Information') ?></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,3088 @@
+2018-04-26T17:15:38+00:00: plugin;ImageAttributeItemProcessor;warning:SKU HS9000-BLACK-2XS - Image attributes processor v1.0.33a - ARTBOARD 73.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9000-VLRBLU-2XS - Image attributes processor v1.0.33a - BC18-OFFI-LOGO-VALOR-POLO.JPG cannot be found in images path
+
+
+
+------------------------
+
+title:MAGMI by dweeves - version:0.7.22
+
+startup:Running Magmi Product Import Engine v1.9.1 by dweeves
+
+startup:Import Profile:NGCImportNew
+
+startup:Import Mode:create
+
+step:step:0.5%
+
+startup:Attributeset update is enabled.
+
+plugin;Magmi_CSVDataSource;pluginhello:CSV Datasource-1.3.1-Dweeves- 
+
+plugin;Magmi_OptimizerPlugin;pluginhello:Magmi Optimizer-1.0.5-Dweeves-http://wiki.magmi.org/index.php?title=Magmi_Optimizer 
+
+plugin;CategoryImporter;pluginhello:On the fly category creator/importer-0.2.5-Dweeves-http://wiki.magmi.org/index.php?title=On_the_fly_category_creator/importer 
+
+plugin;ImageAttributeItemProcessor;pluginhello:Image attributes processor-1.0.33a-Dweeves, Tommy Goode-http://wiki.magmi.org/index.php?title=Image_attributes_processor 
+
+plugin;ColumnMappingItemProcessor;pluginhello:Column mapper-0.0.3b-Dweeves-http://wiki.magmi.org/index.php?title=Column_mapper 
+
+plugin;DefaultValuesItemProcessor;pluginhello:Default Values setter-0.0.5-Dweeves-http://wiki.magmi.org/index.php?title=Default_Values_setter 
+
+plugin;ValueReplacerItemProcessor;pluginhello:Value Replacer-0.0.8a-Dweeves-http://wiki.magmi.org/index.php?title=Value_Replacer 
+
+plugin;Magmi_ConfigurableItemProcessor;pluginhello:Configurable Item processor-1.3.7a-Dweeves-http://wiki.magmi.org/index.php?title=Configurable_Item_processor 
+
+plugin;Magmi_DefaultAttributeItemProcessor;pluginhello:Standard Attribute Import-1.1-Dweeves- 
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Optimizing magmi
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Adding index MAGMI_EAOV_OPTIMIZATION_IDX on eav_attribute_option_value
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Adding index MAGMI_CPEM_OPTIMIZATION_IDX on catalog_product_entity_media_gallery
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Adding index MAGMI_CCEV_OPTIMIZATION_IDX on catalog_category_entity_varchar
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Adding index MAGMI_EA_CODE_OPTIMIZATION_IDX on eav_attribute
+
+startup:Performing Datasource Lookup...
+
+lookup:19:0.00060701370239258
+
+startup:Found 19 records, took 0.00060701370239258 sec
+
+info:Initialized attribute_set_infos!
+
+columns:31
+
+plugin;DefaultValuesItemProcessor;startup:Default Values setter v0.0.5 - Adding Columns options_container
+
+plugin;Magmi_DefaultAttributeItemProcessor;startup:Standard Attribute Import v1.1 - Newly created items will have default values for columns:page_layout
+
+startup:Ajusted processed columns:34
+
+itime:1 - 5.3882598876953E-5 - 5.3882598876953E-5
+
+dbtime:0 - 0 - 0 - 0
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9000-BLACK-2XS - Image attributes processor v1.0.33a - ARTBOARD 73.JPG cannot be found in images path
+
+itime:2 - 0.11192297935486 - 0.11172199249268
+
+dbtime:27 - 0.097489595413208 - 0.097489595413208 - 27
+
+itime:3 - 0.13635492324829 - 0.024194955825806
+
+dbtime:43 - 0.10661506652832 - 0.0091254711151123 - 16
+
+itime:4 - 0.15897798538208 - 0.022359132766724
+
+dbtime:59 - 0.11626291275024 - 0.0096478462219238 - 16
+
+itime:5 - 0.17794585227966 - 0.018725872039795
+
+dbtime:75 - 0.12584686279297 - 0.0095839500427246 - 16
+
+itime:6 - 0.20124793052673 - 0.023120164871216
+
+dbtime:91 - 0.13484120368958 - 0.0089943408966064 - 16
+
+itime:7 - 0.22584295272827 - 0.024361133575439
+
+dbtime:107 - 0.14397239685059 - 0.0091311931610107 - 16
+
+itime:8 - 0.24657392501831 - 0.020494937896729
+
+dbtime:123 - 0.15302348136902 - 0.0090510845184326 - 16
+
+itime:9 - 0.26868796348572 - 0.021939039230347
+
+dbtime:139 - 0.16260194778442 - 0.0095784664154053 - 16
+
+itime:10 - 0.28652095794678 - 0.017664194107056
+
+dbtime:155 - 0.1719958782196 - 0.0093939304351807 - 16
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9000-VLRBLU-2XS - Image attributes processor v1.0.33a - BC18-OFFI-LOGO-VALOR-POLO.JPG cannot be found in images path
+
+itime:11 - 0.30272197723389 - 0.016029119491577
+
+dbtime:171 - 0.18155312538147 - 0.0095572471618652 - 16
+
+itime:12 - 0.31775593757629 - 0.014843940734863
+
+dbtime:184 - 0.18953323364258 - 0.0079801082611084 - 13
+
+itime:13 - 0.33208298683167 - 0.01416802406311
+
+dbtime:197 - 0.19709420204163 - 0.0075609683990479 - 13
+
+itime:14 - 0.34819984436035 - 0.015960931777954
+
+dbtime:210 - 0.2042543888092 - 0.0071601867675781 - 13
+
+itime:15 - 0.36738896369934 - 0.019030094146729
+
+dbtime:223 - 0.21259236335754 - 0.0083379745483398 - 13
+
+itime:16 - 0.39662480354309 - 0.029064893722534
+
+dbtime:236 - 0.23738670349121 - 0.024794340133667 - 13
+
+itime:17 - 0.4099497795105 - 0.013161897659302
+
+dbtime:249 - 0.24545121192932 - 0.0080645084381104 - 13
+
+itime:18 - 0.42423796653748 - 0.014072179794312
+
+dbtime:262 - 0.25343251228333 - 0.0079813003540039 - 13
+
+itime:19 - 0.43663597106934 - 0.012243032455444
+
+dbtime:275 - 0.261723279953 - 0.0082907676696777 - 13
+
+itime:19 - 0.52100396156311 - 0.084048986434937
+
+dbtime:300 - 0.33896088600159 - 0.077237606048584 - 25
+
+info:Skus imported OK:19/19
+
+plugin;CategoryImporter;info:On the fly category creator/importer v0.2.5 - Updating Category children count....
+
+end:Import Ended
+
+
+
+------------------------
+
+ (File: PRODUCT_HS_20180426-00421.csv)
+2018-05-22T21:10:08+00:00: plugin;ImageAttributeItemProcessor;warning:SKU HS9402-CRUNCHBERY-2XS - Image attributes processor v1.0.33a - HAMBO ARCH - CRUNCHBERRY.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9402-FLO BLUE-2XS - Image attributes processor v1.0.33a - COMFORT COLORS 1717 - HAMBO ARCH BLUE.JPG cannot be found in images path
+
+
+
+------------------------
+
+title:MAGMI by dweeves - version:0.7.22
+
+startup:Running Magmi Product Import Engine v1.9.1 by dweeves
+
+startup:Import Profile:NGCImportNew
+
+startup:Import Mode:create
+
+step:step:0.5%
+
+startup:Attributeset update is enabled.
+
+plugin;Magmi_CSVDataSource;pluginhello:CSV Datasource-1.3.1-Dweeves- 
+
+plugin;Magmi_OptimizerPlugin;pluginhello:Magmi Optimizer-1.0.5-Dweeves-http://wiki.magmi.org/index.php?title=Magmi_Optimizer 
+
+plugin;CategoryImporter;pluginhello:On the fly category creator/importer-0.2.5-Dweeves-http://wiki.magmi.org/index.php?title=On_the_fly_category_creator/importer 
+
+plugin;ImageAttributeItemProcessor;pluginhello:Image attributes processor-1.0.33a-Dweeves, Tommy Goode-http://wiki.magmi.org/index.php?title=Image_attributes_processor 
+
+plugin;ColumnMappingItemProcessor;pluginhello:Column mapper-0.0.3b-Dweeves-http://wiki.magmi.org/index.php?title=Column_mapper 
+
+plugin;DefaultValuesItemProcessor;pluginhello:Default Values setter-0.0.5-Dweeves-http://wiki.magmi.org/index.php?title=Default_Values_setter 
+
+plugin;ValueReplacerItemProcessor;pluginhello:Value Replacer-0.0.8a-Dweeves-http://wiki.magmi.org/index.php?title=Value_Replacer 
+
+plugin;Magmi_ConfigurableItemProcessor;pluginhello:Configurable Item processor-1.3.7a-Dweeves-http://wiki.magmi.org/index.php?title=Configurable_Item_processor 
+
+plugin;Magmi_DefaultAttributeItemProcessor;pluginhello:Standard Attribute Import-1.1-Dweeves- 
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Optimizing magmi
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Adding index MAGMI_EAOV_OPTIMIZATION_IDX on eav_attribute_option_value
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Already optmized!
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Adding index MAGMI_CPEM_OPTIMIZATION_IDX on catalog_product_entity_media_gallery
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Already optmized!
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Adding index MAGMI_CCEV_OPTIMIZATION_IDX on catalog_category_entity_varchar
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Already optmized!
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Adding index MAGMI_EA_CODE_OPTIMIZATION_IDX on eav_attribute
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Already optmized!
+
+startup:Performing Datasource Lookup...
+
+lookup:37:0.035646915435791
+
+startup:Found 37 records, took 0.035646915435791 sec
+
+info:Initialized attribute_set_infos!
+
+columns:31
+
+plugin;DefaultValuesItemProcessor;startup:Default Values setter v0.0.5 - Adding Columns options_container
+
+plugin;Magmi_DefaultAttributeItemProcessor;startup:Standard Attribute Import v1.1 - Newly created items will have default values for columns:page_layout
+
+startup:Ajusted processed columns:34
+
+itime:1 - 0.00011491775512695 - 0.00011491775512695
+
+dbtime:0 - 0 - 0 - 0
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9402-CRUNCHBERY-2XS - Image attributes processor v1.0.33a - HAMBO ARCH - CRUNCHBERRY.JPG cannot be found in images path
+
+itime:2 - 0.1914849281311 - 0.19105696678162
+
+dbtime:24 - 0.18046927452087 - 0.18046927452087 - 24
+
+itime:3 - 0.21100783348083 - 0.016156911849976
+
+dbtime:37 - 0.19060206413269 - 0.010132789611816 - 13
+
+itime:4 - 0.23591780662537 - 0.023193836212158
+
+dbtime:50 - 0.20865631103516 - 0.018054246902466 - 13
+
+itime:5 - 0.26251983642578 - 0.0241858959198
+
+dbtime:63 - 0.22547101974487 - 0.016814708709717 - 13
+
+itime:6 - 0.2781457901001 - 0.015401840209961
+
+dbtime:76 - 0.23536849021912 - 0.0098974704742432 - 13
+
+itime:7 - 0.292888879776 - 0.014432907104492
+
+dbtime:89 - 0.24358463287354 - 0.0082161426544189 - 13
+
+itime:8 - 0.31390285491943 - 0.020752906799316
+
+dbtime:102 - 0.25244116783142 - 0.0088565349578857 - 13
+
+itime:9 - 0.33904480934143 - 0.024716854095459
+
+dbtime:115 - 0.27149486541748 - 0.01905369758606 - 13
+
+itime:10 - 0.35250782966614 - 0.013043880462646
+
+dbtime:128 - 0.27909398078918 - 0.0075991153717041 - 13
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9402-FLO BLUE-2XS - Image attributes processor v1.0.33a - COMFORT COLORS 1717 - HAMBO ARCH BLUE.JPG cannot be found in images path
+
+itime:11 - 0.37596082687378 - 0.020119905471802
+
+dbtime:144 - 0.29071879386902 - 0.011624813079834 - 16
+
+itime:12 - 0.39979481697083 - 0.021734952926636
+
+dbtime:157 - 0.30665445327759 - 0.015935659408569 - 13
+
+itime:13 - 0.42085194587708 - 0.018063068389893
+
+dbtime:170 - 0.31797170639038 - 0.011317253112793 - 13
+
+itime:14 - 0.47159886360168 - 0.049645900726318
+
+dbtime:183 - 0.33563470840454 - 0.01766300201416 - 13
+
+itime:15 - 0.48749995231628 - 0.014652013778687
+
+dbtime:196 - 0.34506058692932 - 0.0094258785247803 - 13
+
+itime:16 - 0.7153799533844 - 0.22759699821472
+
+dbtime:209 - 0.5639910697937 - 0.21893048286438 - 13
+
+itime:17 - 0.75554990768433 - 0.037863969802856
+
+dbtime:222 - 0.5880720615387 - 0.024080991744995 - 13
+
+itime:18 - 0.77789282798767 - 0.021962881088257
+
+dbtime:235 - 0.60179591178894 - 0.013723850250244 - 13
+
+itime:19 - 0.80624890327454 - 0.025000095367432
+
+dbtime:248 - 0.62025189399719 - 0.018455982208252 - 13
+
+itime:20 - 1.1407368183136 - 0.334223985672
+
+dbtime:276 - 0.67066383361816 - 0.050411939620972 - 28
+
+itime:21 - 1.1915168762207 - 0.047319889068604
+
+dbtime:301 - 0.69693517684937 - 0.026271343231201 - 25
+
+itime:22 - 1.2348628044128 - 0.042992830276489
+
+dbtime:326 - 0.72143745422363 - 0.024502277374268 - 25
+
+itime:23 - 1.3032698631287 - 0.067795038223267
+
+dbtime:351 - 0.75223231315613 - 0.030794858932495 - 25
+
+itime:24 - 1.3431398868561 - 0.039577007293701
+
+dbtime:376 - 0.77217602729797 - 0.019943714141846 - 25
+
+itime:25 - 1.400937795639 - 0.057521820068359
+
+dbtime:401 - 0.80452513694763 - 0.032349109649658 - 25
+
+itime:26 - 1.44176197052 - 0.040495157241821
+
+dbtime:426 - 0.82593131065369 - 0.021406173706055 - 25
+
+itime:27 - 1.4751060009003 - 0.03287410736084
+
+dbtime:451 - 0.84535622596741 - 0.019424915313721 - 25
+
+itime:28 - 1.5899858474731 - 0.11466288566589
+
+dbtime:476 - 0.86533284187317 - 0.019976615905762 - 25
+
+itime:29 - 1.9942708015442 - 0.40303182601929
+
+dbtime:504 - 0.89190077781677 - 0.026567935943604 - 28
+
+itime:30 - 2.042585849762 - 0.048043966293335
+
+dbtime:529 - 0.90714955329895 - 0.015248775482178 - 25
+
+itime:31 - 2.6355450153351 - 0.59271717071533
+
+dbtime:554 - 0.9333291053772 - 0.026179552078247 - 25
+
+itime:32 - 2.6909368038177 - 0.055094957351685
+
+dbtime:579 - 0.95286059379578 - 0.019531488418579 - 25
+
+itime:33 - 2.7949168682098 - 0.10346293449402
+
+dbtime:604 - 0.96831083297729 - 0.015450239181519 - 25
+
+itime:34 - 3.1943860054016 - 0.39916801452637
+
+dbtime:629 - 0.98265433311462 - 0.014343500137329 - 25
+
+itime:35 - 3.2545847892761 - 0.059984922409058
+
+dbtime:654 - 0.99987149238586 - 0.01721715927124 - 25
+
+itime:36 - 3.3251178264618 - 0.07024097442627
+
+dbtime:679 - 1.0145075321198 - 0.014636039733887 - 25
+
+itime:37 - 3.4550058841705 - 0.12962007522583
+
+dbtime:704 - 1.0312340259552 - 0.016726493835449 - 25
+
+itime:37 - 3.8157179355621 - 0.36021113395691
+
+dbtime:749 - 1.0931866168976 - 0.061952590942383 - 45
+
+info:Skus imported OK:37/37
+
+plugin;CategoryImporter;info:On the fly category creator/importer v0.2.5 - Updating Category children count....
+
+end:Import Ended
+
+
+
+------------------------
+
+ (File: PRODUCT_HS_20180522-00674.csv)
+2018-10-14T19:10:24+00:00: plugin;ImageAttributeItemProcessor;warning:SKU HS9005-2XS - Image attributes processor v1.0.33a - HS9005 - PROPERTY OF FLEECE - BLACK.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9005-2XS - Image attributes processor v1.0.33a - HS9005 - PROPERTY OF FLEECE ON GREY - CONCRETE GREY.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9005-2XS - Image attributes processor v1.0.33a - HS9002_-_BREEDERS_CROWN_PROPERTY_OF_GREY_FLEECE_1_X400.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9005-2XS - Image attributes processor v1.0.33a - HS9002_-_BREEDERS_CROWN_PROPERTY_OF_GREY_FLEECE_2_X150.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9006-S - Image attributes processor v1.0.33a - GDH400.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9411-S - Image attributes processor v1.0.33a - HS9411 - BREEDERS CROWN LOGO TEE.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9411-S - Image attributes processor v1.0.33a - HS9411_-_BREEDERS_CROWN_LOGO_TEE_1_X400.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9411-S - Image attributes processor v1.0.33a - HS9411_-_BREEDERS_CROWN_LOGO_TEE_2_X150.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9412-S - Image attributes processor v1.0.33a - HS9412 - BREEDERS CROWN RUNNING HORSES TEE.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9412-S - Image attributes processor v1.0.33a - HS9412_-_BREEDERS_CROWN_RUNNING_HORSES_TEE_1_X400.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9412-S - Image attributes processor v1.0.33a - HS9412_-_BREEDERS_CROWN_RUNNING_HORSES_TEE_2_X150.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9413-S - Image attributes processor v1.0.33a - HS9413 - BREEDERS CROWN LOGO THERMAL.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9413-S - Image attributes processor v1.0.33a - HS9413_-_BREEDERS_CROWN_LOGO_THERMAL_2_X400.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9413-S - Image attributes processor v1.0.33a - HS9413_-_BREEDERS_CROWN_LOGO_THERMAL_3_X150.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9414-S - Image attributes processor v1.0.33a - HS9414 - BREEDERS CROWN LOGO RAGLAN.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9414-S - Image attributes processor v1.0.33a - HS9414_-_BREEDERS_CROWN_LOGO_RAGLAN_1_X400.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9414-S - Image attributes processor v1.0.33a - HS9414_-_BREEDERS_CROWN_LOGO_RAGLAN_2_X150.JPG cannot be found in images path
+
+
+
+------------------------
+
+title:MAGMI by dweeves - version:0.7.22
+
+startup:Running Magmi Product Import Engine v1.9.1 by dweeves
+
+startup:Import Profile:NGCImportNew
+
+startup:Import Mode:create
+
+step:step:0.5%
+
+startup:Attributeset update is enabled.
+
+plugin;Magmi_CSVDataSource;pluginhello:CSV Datasource-1.3.1-Dweeves- 
+
+plugin;Magmi_OptimizerPlugin;pluginhello:Magmi Optimizer-1.0.5-Dweeves-http://wiki.magmi.org/index.php?title=Magmi_Optimizer 
+
+plugin;CategoryImporter;pluginhello:On the fly category creator/importer-0.2.5-Dweeves-http://wiki.magmi.org/index.php?title=On_the_fly_category_creator/importer 
+
+plugin;ImageAttributeItemProcessor;pluginhello:Image attributes processor-1.0.33a-Dweeves, Tommy Goode-http://wiki.magmi.org/index.php?title=Image_attributes_processor 
+
+plugin;ColumnMappingItemProcessor;pluginhello:Column mapper-0.0.3b-Dweeves-http://wiki.magmi.org/index.php?title=Column_mapper 
+
+plugin;DefaultValuesItemProcessor;pluginhello:Default Values setter-0.0.5-Dweeves-http://wiki.magmi.org/index.php?title=Default_Values_setter 
+
+plugin;ValueReplacerItemProcessor;pluginhello:Value Replacer-0.0.8a-Dweeves-http://wiki.magmi.org/index.php?title=Value_Replacer 
+
+plugin;Magmi_ConfigurableItemProcessor;pluginhello:Configurable Item processor-1.3.7a-Dweeves-http://wiki.magmi.org/index.php?title=Configurable_Item_processor 
+
+plugin;Magmi_DefaultAttributeItemProcessor;pluginhello:Standard Attribute Import-1.1-Dweeves- 
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Optimizing magmi
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Adding index MAGMI_EAOV_OPTIMIZATION_IDX on eav_attribute_option_value
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Already optmized!
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Adding index MAGMI_CPEM_OPTIMIZATION_IDX on catalog_product_entity_media_gallery
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Already optmized!
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Adding index MAGMI_CCEV_OPTIMIZATION_IDX on catalog_category_entity_varchar
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Already optmized!
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Adding index MAGMI_EA_CODE_OPTIMIZATION_IDX on eav_attribute
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Already optmized!
+
+startup:Performing Datasource Lookup...
+
+lookup:49:0.0015521049499512
+
+startup:Found 49 records, took 0.0015521049499512 sec
+
+info:Initialized attribute_set_infos!
+
+columns:31
+
+plugin;DefaultValuesItemProcessor;startup:Default Values setter v0.0.5 - Adding Columns options_container
+
+plugin;Magmi_DefaultAttributeItemProcessor;startup:Standard Attribute Import v1.1 - Newly created items will have default values for columns:page_layout
+
+startup:Ajusted processed columns:34
+
+itime:1 - 7.2002410888672E-5 - 7.2002410888672E-5
+
+dbtime:0 - 0 - 0 - 0
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9005-2XS - Image attributes processor v1.0.33a - HS9005 - PROPERTY OF FLEECE - BLACK.JPG cannot be found in images path
+
+itime:2 - 0.088280916213989 - 0.088131904602051
+
+dbtime:15 - 0.084671020507812 - 0.084671020507812 - 15
+
+itime:3 - 0.093183040618896 - 0.0047650337219238
+
+dbtime:25 - 0.087291955947876 - 0.0026209354400635 - 10
+
+itime:4 - 0.098488092422485 - 0.0051980018615723
+
+dbtime:35 - 0.090312957763672 - 0.0030210018157959 - 10
+
+itime:5 - 0.10315704345703 - 0.0045590400695801
+
+dbtime:45 - 0.092823266983032 - 0.0025103092193604 - 10
+
+itime:6 - 0.10771298408508 - 0.0044479370117188
+
+dbtime:55 - 0.095203161239624 - 0.0023798942565918 - 10
+
+itime:7 - 0.11240696907043 - 0.0045819282531738
+
+dbtime:65 - 0.097772359848022 - 0.0025691986083984 - 10
+
+itime:8 - 0.11679100990295 - 0.0042729377746582
+
+dbtime:75 - 0.10029220581055 - 0.0025198459625244 - 10
+
+itime:9 - 0.12173295021057 - 0.0047900676727295
+
+dbtime:85 - 0.10301232337952 - 0.0027201175689697 - 10
+
+itime:10 - 0.12677597999573 - 0.0049209594726562
+
+dbtime:95 - 0.10580945014954 - 0.0027971267700195 - 10
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9005-2XS - Image attributes processor v1.0.33a - HS9005 - PROPERTY OF FLEECE ON GREY - CONCRETE GREY.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9005-2XS - Image attributes processor v1.0.33a - HS9002_-_BREEDERS_CROWN_PROPERTY_OF_GREY_FLEECE_1_X400.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9005-2XS - Image attributes processor v1.0.33a - HS9002_-_BREEDERS_CROWN_PROPERTY_OF_GREY_FLEECE_2_X150.JPG cannot be found in images path
+
+itime:11 - 0.13138508796692 - 0.0044960975646973
+
+dbtime:105 - 0.10787343978882 - 0.0020639896392822 - 10
+
+itime:12 - 0.13582396507263 - 0.0043389797210693
+
+dbtime:115 - 0.11010217666626 - 0.0022287368774414 - 10
+
+itime:13 - 0.14028596878052 - 0.0043559074401855
+
+dbtime:125 - 0.11231899261475 - 0.0022168159484863 - 10
+
+itime:14 - 0.14498090744019 - 0.0045819282531738
+
+dbtime:135 - 0.1147084236145 - 0.0023894309997559 - 10
+
+itime:15 - 0.14989900588989 - 0.0047769546508789
+
+dbtime:145 - 0.11716437339783 - 0.0024559497833252 - 10
+
+itime:16 - 0.15502691268921 - 0.0049819946289062
+
+dbtime:155 - 0.11983466148376 - 0.0026702880859375 - 10
+
+itime:17 - 0.15915393829346 - 0.0040140151977539
+
+dbtime:165 - 0.12190675735474 - 0.0020720958709717 - 10
+
+itime:18 - 0.16278100013733 - 0.0035290718078613
+
+dbtime:175 - 0.12371158599854 - 0.0018048286437988 - 10
+
+itime:19 - 0.16631007194519 - 0.0034329891204834
+
+dbtime:185 - 0.12521815299988 - 0.0015065670013428 - 10
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9006-S - Image attributes processor v1.0.33a - GDH400.JPG cannot be found in images path
+
+itime:20 - 0.17117404937744 - 0.0047481060028076
+
+dbtime:195 - 0.12792992591858 - 0.0027117729187012 - 10
+
+itime:21 - 0.17493510246277 - 0.0036721229553223
+
+dbtime:205 - 0.12967109680176 - 0.0017411708831787 - 10
+
+itime:22 - 0.17790293693542 - 0.0028970241546631
+
+dbtime:215 - 0.13117098808289 - 0.0014998912811279 - 10
+
+itime:23 - 0.1811740398407 - 0.0032050609588623
+
+dbtime:225 - 0.13272094726562 - 0.0015499591827393 - 10
+
+itime:24 - 0.18411803245544 - 0.0028650760650635
+
+dbtime:235 - 0.13418483734131 - 0.0014638900756836 - 10
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9411-S - Image attributes processor v1.0.33a - HS9411 - BREEDERS CROWN LOGO TEE.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9411-S - Image attributes processor v1.0.33a - HS9411_-_BREEDERS_CROWN_LOGO_TEE_1_X400.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9411-S - Image attributes processor v1.0.33a - HS9411_-_BREEDERS_CROWN_LOGO_TEE_2_X150.JPG cannot be found in images path
+
+itime:25 - 0.18725490570068 - 0.0030739307403564
+
+dbtime:245 - 0.13567781448364 - 0.001492977142334 - 10
+
+itime:26 - 0.19008493423462 - 0.0027730464935303
+
+dbtime:255 - 0.13706636428833 - 0.0013885498046875 - 10
+
+itime:27 - 0.19284987449646 - 0.0026998519897461
+
+dbtime:265 - 0.1384482383728 - 0.0013818740844727 - 10
+
+itime:28 - 0.19550800323486 - 0.0025849342346191
+
+dbtime:275 - 0.13976883888245 - 0.0013206005096436 - 10
+
+itime:29 - 0.19807291030884 - 0.0025079250335693
+
+dbtime:285 - 0.14104151725769 - 0.0012726783752441 - 10
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9412-S - Image attributes processor v1.0.33a - HS9412 - BREEDERS CROWN RUNNING HORSES TEE.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9412-S - Image attributes processor v1.0.33a - HS9412_-_BREEDERS_CROWN_RUNNING_HORSES_TEE_1_X400.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9412-S - Image attributes processor v1.0.33a - HS9412_-_BREEDERS_CROWN_RUNNING_HORSES_TEE_2_X150.JPG cannot be found in images path
+
+itime:30 - 0.20084095001221 - 0.0027098655700684
+
+dbtime:295 - 0.14229440689087 - 0.0012528896331787 - 10
+
+itime:31 - 0.20358896255493 - 0.002655029296875
+
+dbtime:305 - 0.14363503456116 - 0.0013406276702881 - 10
+
+itime:32 - 0.2061619758606 - 0.0025179386138916
+
+dbtime:315 - 0.14489412307739 - 0.0012590885162354 - 10
+
+itime:33 - 0.20865607261658 - 0.0024380683898926
+
+dbtime:325 - 0.14611458778381 - 0.0012204647064209 - 10
+
+itime:34 - 0.21139407157898 - 0.002683162689209
+
+dbtime:335 - 0.14745140075684 - 0.0013368129730225 - 10
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9413-S - Image attributes processor v1.0.33a - HS9413 - BREEDERS CROWN LOGO THERMAL.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9413-S - Image attributes processor v1.0.33a - HS9413_-_BREEDERS_CROWN_LOGO_THERMAL_2_X400.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9413-S - Image attributes processor v1.0.33a - HS9413_-_BREEDERS_CROWN_LOGO_THERMAL_3_X150.JPG cannot be found in images path
+
+itime:35 - 0.21438598632812 - 0.0029311180114746
+
+dbtime:345 - 0.14880537986755 - 0.0013539791107178 - 10
+
+itime:36 - 0.21698689460754 - 0.0025408267974854
+
+dbtime:355 - 0.15003657341003 - 0.0012311935424805 - 10
+
+itime:37 - 0.2195930480957 - 0.0025429725646973
+
+dbtime:365 - 0.15131974220276 - 0.0012831687927246 - 10
+
+itime:38 - 0.22228789329529 - 0.0026359558105469
+
+dbtime:375 - 0.15263032913208 - 0.0013105869293213 - 10
+
+itime:39 - 0.22492504119873 - 0.002575159072876
+
+dbtime:385 - 0.15390300750732 - 0.0012726783752441 - 10
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9414-S - Image attributes processor v1.0.33a - HS9414 - BREEDERS CROWN LOGO RAGLAN.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9414-S - Image attributes processor v1.0.33a - HS9414_-_BREEDERS_CROWN_LOGO_RAGLAN_1_X400.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9414-S - Image attributes processor v1.0.33a - HS9414_-_BREEDERS_CROWN_LOGO_RAGLAN_2_X150.JPG cannot be found in images path
+
+itime:40 - 0.22802090644836 - 0.0030360221862793
+
+dbtime:395 - 0.15522718429565 - 0.0013241767883301 - 10
+
+itime:41 - 0.23072791099548 - 0.0026299953460693
+
+dbtime:405 - 0.15649890899658 - 0.0012717247009277 - 10
+
+itime:42 - 0.23332595825195 - 0.0025370121002197
+
+dbtime:415 - 0.15773916244507 - 0.0012402534484863 - 10
+
+itime:43 - 0.23611497879028 - 0.0027279853820801
+
+dbtime:425 - 0.15899634361267 - 0.0012571811676025 - 10
+
+itime:44 - 0.24098491668701 - 0.0047569274902344
+
+dbtime:435 - 0.16169166564941 - 0.0026953220367432 - 10
+
+itime:45 - 0.25033092498779 - 0.0092489719390869
+
+dbtime:452 - 0.16825032234192 - 0.0065586566925049 - 17
+
+itime:46 - 0.26294207572937 - 0.012478113174438
+
+dbtime:469 - 0.17799878120422 - 0.0097484588623047 - 17
+
+itime:47 - 0.2698860168457 - 0.0068190097808838
+
+dbtime:486 - 0.18235802650452 - 0.004359245300293 - 17
+
+itime:48 - 0.27543807029724 - 0.0054399967193604
+
+dbtime:503 - 0.18538236618042 - 0.0030243396759033 - 17
+
+itime:49 - 0.28083801269531 - 0.0052831172943115
+
+dbtime:520 - 0.18831419944763 - 0.0029318332672119 - 17
+
+itime:49 - 0.28671503067017 - 0.0056991577148438
+
+dbtime:538 - 0.19165325164795 - 0.0033390522003174 - 18
+
+info:Skus imported OK:49/49
+
+plugin;CategoryImporter;info:On the fly category creator/importer v0.2.5 - Updating Category children count....
+
+end:Import Ended
+
+
+
+------------------------
+
+ (File: PRODUCT_HS_20181012-00341.csv)
+2019-01-09T17:10:21+00:00: plugin;ImageAttributeItemProcessor;warning:SKU HS9000-BLACK-2XS - Image attributes processor v1.0.33a - BC-NIKE-POLO-BLACK-FULL.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9000-BLACK-2XS - Image attributes processor v1.0.33a - BC-NIKE-POLO-BLACK-SMALL.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9000-BLACK-2XS - Image attributes processor v1.0.33a - BC-NIKE-POLO-BLACK-THUMB.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9000-VLRBLU-2XS - Image attributes processor v1.0.33a - BC-NIKE-POLO-VALOR-BLUE-FULL.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9000-VLRBLU-2XS - Image attributes processor v1.0.33a - BC-NIKE-POLO-VALOR-BLUE-SMALL.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9000-VLRBLU-2XS - Image attributes processor v1.0.33a - BC-NIKE-POLO-VALOR-BLUE-THUMB.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9001-BLACK-2XS - Image attributes processor v1.0.33a - BC-PM-PERTH-BLACK-FULL.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9001-BLACK-2XS - Image attributes processor v1.0.33a - BC-PM-PERTH-BLACK-SMALL.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9001-BLACK-2XS - Image attributes processor v1.0.33a - BC-PM-PERTH-BLACK-THUMB.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9001-MIDNIGHT-2XS - Image attributes processor v1.0.33a - BC-PM-PERTH-MIDNIGHT-FULL.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9001-MIDNIGHT-2XS - Image attributes processor v1.0.33a - BC-PM-PERTH-MIDNIGHT-THUMB.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9002-2XS - Image attributes processor v1.0.33a - HBC-PM-POLO-FULL.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9002-2XS - Image attributes processor v1.0.33a - HBC-PM-POLO-SMALL.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9002-2XS - Image attributes processor v1.0.33a - HBC-PM-POLO-THUMB.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9003-BLACK-2XS - Image attributes processor v1.0.33a - HBC-NIKE-POLO-BLACK-FULL.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9003-BLACK-2XS - Image attributes processor v1.0.33a - HBC-NIKE-POLO-BLACK-SMALL.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9003-BLACK-2XS - Image attributes processor v1.0.33a - HBC-NIKE-POLO-BLACK-THUMB.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9003-VAR RED-2XS - Image attributes processor v1.0.33a - HBC-NIKE-POLO-RED-FULL.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9003-VAR RED-2XS - Image attributes processor v1.0.33a - HBC-NIKE-POLO-RED-THUMB.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9004-BLACK-2XS - Image attributes processor v1.0.33a - HBC-PERTH-BLACK-FULL.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9004-BLACK-2XS - Image attributes processor v1.0.33a - HBC-PERTH-BLACK-SMALL.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9004-BLACK-2XS - Image attributes processor v1.0.33a - HBC-PERTH-BLACK-THUMB.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9004-MIDNIGHT-2XS - Image attributes processor v1.0.33a - HBC-PERTH-MIDNIGHT-FULL.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9004-MIDNIGHT-2XS - Image attributes processor v1.0.33a - HBC-PERTH-MIDNIGHT-SMALL.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9004-MIDNIGHT-2XS - Image attributes processor v1.0.33a - HBC-PERTH-MIDNIGHT-THUMB.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9005-2XS - Image attributes processor v1.0.33a - HS9005 - PROPERTY OF FLEECE - BLACK.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9005-2XS - Image attributes processor v1.0.33a - HS9005 - PROPERTY OF FLEECE ON GREY - CONCRETE GREY.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9005-2XS - Image attributes processor v1.0.33a - HS9002_-_BREEDERS_CROWN_PROPERTY_OF_GREY_FLEECE_1_X400.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9005-2XS - Image attributes processor v1.0.33a - HS9002_-_BREEDERS_CROWN_PROPERTY_OF_GREY_FLEECE_2_X150.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9006-2XS - Image attributes processor v1.0.33a - GDH400.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9008-BLU JEAN-2XS - Image attributes processor v1.0.33a - HBTS18017_01.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9008-SEAFOAM-2XS - Image attributes processor v1.0.33a - HBTS18017_02.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9200-BABYBLUE - Image attributes processor v1.0.33a - BC-ADAMS-HAT-BABY-BLUE-FULL.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9200-BABYBLUE - Image attributes processor v1.0.33a - BC-ADAMS-HAT-BABY-BLUE-THUMB.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9200-CHARCOAL - Image attributes processor v1.0.33a - BC-ADAMS-HAT-CHARCOAL-FULL.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9200-CHARCOAL - Image attributes processor v1.0.33a - BC-ADAMS-HAT-CHARCOAL-SMALL.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9200-CHARCOAL - Image attributes processor v1.0.33a - BC-ADAMS-HAT-CHARCOAL-THUMB.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9200-CORAL - Image attributes processor v1.0.33a - BC-ADAMS-HAT-CORAL-FULL.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9200-CORAL - Image attributes processor v1.0.33a - BC-ADAMS-HAT-CORAL-SMALL.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9200-CORAL - Image attributes processor v1.0.33a - BC-ADAMS-HAT-CORAL-THUMB.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9201-PROGREEN - Image attributes processor v1.0.33a - BC-NIKE-HAT-GREEN-FULL.JPEG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9201-PROGREEN - Image attributes processor v1.0.33a - BC-NIKE-HAT-GREEN-SMALL.JPEG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9201-PROGREEN - Image attributes processor v1.0.33a - BC-NIKE-HAT-GREEN-THUMB.JPEG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9201-VLRBLUE - Image attributes processor v1.0.33a - BC-NIKE-HAT-VALOR-BLUE-FULL.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9201-VLRBLUE - Image attributes processor v1.0.33a - BC-NIKE-HAT-VALOR-BLUE-SMALL.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9201-VLRBLUE - Image attributes processor v1.0.33a - BC-NIKE-HAT-VALOR-BLUE-THUMB.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9201-WHITE - Image attributes processor v1.0.33a - BC-NIKE-HAT-WHITE-FULL.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9201-WHITE - Image attributes processor v1.0.33a - BC-NIKE-HAT-WHITE-SMALL.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9201-WHITE - Image attributes processor v1.0.33a - BC-NIKE-HAT-WHITE-THUMB.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9400-DK GR HR-2XS - Image attributes processor v1.0.33a - HAMBO-BAR-GREY.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9400-HTR DP TL-2XS - Image attributes processor v1.0.33a - HAMBO TEXT TEAL.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9400-HTR RASP-2XS - Image attributes processor v1.0.33a - HAMBO-RASP-BAR.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9400-HTR RASP-2XS - Image attributes processor v1.0.33a - HAMBO TEXT RASP.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9400-HTR RED-2XS - Image attributes processor v1.0.33a - HAMBO_BAR_LOGO_RED_X1300.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9400-TURQ-2XS - Image attributes processor v1.0.33a - HS_BAR_LOGO_TURQOUISE_X1300.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9401-2XS - Image attributes processor v1.0.33a - HAMBO-BADGE-RED-REV_X1300.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9401-2XS - Image attributes processor v1.0.33a - HAMBO-BADGE-FRONT-RED.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9401-2XS - Image attributes processor v1.0.33a - HAMBO-BADGE-RED-REV_1_X400.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9401-2XS - Image attributes processor v1.0.33a - HAMBO-BADGE-RED-REV_2_X150.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9402-CRUNCHBERY-2XS - Image attributes processor v1.0.33a - HAMBO-ARCH-RAS.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9402-CRUNCHBERY-2XS - Image attributes processor v1.0.33a - HAMBO ARCH - CRUNCHBERRY.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9402-FLO BLUE-2XS - Image attributes processor v1.0.33a - COMFORT COLORS 1717 - HAMBO ARCH BLUE.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9402-PEPPER-2XS - Image attributes processor v1.0.33a - HAMBO-ARCH-BLK.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9402-TRUE NAVY-2XS - Image attributes processor v1.0.33a - 1717 - TRUE NAVY - HAMBO ARCH.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9403-BJWHITE-2XS - Image attributes processor v1.0.33a - HAMBO_CIRCLE_BLUE_BACK_2_X1300.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9403-BJWHITE-2XS - Image attributes processor v1.0.33a - HAMBO_CIRCLE_BLUE_BACK_1_X400.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9403-BJWHITE-2XS - Image attributes processor v1.0.33a - HAMBO_CIRCLE_BLUE_BACK_X150.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9403-CRIMSON-2XS - Image attributes processor v1.0.33a - HS POCKET TEE - BACK - CRIMSON.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9403-LT GREEN-2XS - Image attributes processor v1.0.33a - HAMBO CIRCLE GREEN BACK.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9403-LT GREEN-2XS - Image attributes processor v1.0.33a - HAMBO_CIRCLE_GREEN_BACK_1_X400.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9403-LT GREEN-2XS - Image attributes processor v1.0.33a - HAMBO_CIRCLE_GREEN_BACK_2_X150.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9403-PEPPER-2XS - Image attributes processor v1.0.33a - HAMBO-CIRCLE-PEPPER-BACK.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9404-RED - Image attributes processor v1.0.33a - HS-TEA-TOWEL.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9404-RED - Image attributes processor v1.0.33a - HS-TEA-TOWEL_X400.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9404-RED - Image attributes processor v1.0.33a - HS-TEA-TOWEL_1_X150.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9408-DARK GREY-2XS - Image attributes processor v1.0.33a - HBTS18006_TEE_SPREAD-24_X1300.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9408-DARK GREY-2XS - Image attributes processor v1.0.33a - HBTS18006 TEE SPREAD 2-07.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9408-DARK GREY-2XS - Image attributes processor v1.0.33a - HBTS18006_TEE_SPREAD-24_1_X400.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9408-DARK GREY-2XS - Image attributes processor v1.0.33a - HBTS18006_TEE_SPREAD-24_2_X150.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9409-HTR BRN-2XS - Image attributes processor v1.0.33a - HBTS18006-TEE-SPREAD_04-1_X1300.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9409-HTR BRN-2XS - Image attributes processor v1.0.33a - HBTS18006-TEE-SPREAD_04-4_X1300.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9409-HTR BRN-2XS - Image attributes processor v1.0.33a - HBTS18006-TEE-SPREAD_04-1_1_X400.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9409-HTR BRN-2XS - Image attributes processor v1.0.33a - HBTS18006-TEE-SPREAD_04-1_2_X150.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9409-HTR KELL-2XS - Image attributes processor v1.0.33a - HBTS18006-TEE-SPREAD_04-2_X1300.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9409-HTR KELL-2XS - Image attributes processor v1.0.33a - HBTS18006 TEE SPREAD 2-10.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9409-HTR KELL-2XS - Image attributes processor v1.0.33a - HBTS18006-TEE-SPREAD_04-2_1_X400 (1).JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9409-HTR KELL-2XS - Image attributes processor v1.0.33a - HBTS18006-TEE-SPREAD_04-2_2_X150.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9409-TURQ-2XS - Image attributes processor v1.0.33a - HBTS18006-TEE-SPREAD_04-3_X1300.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9409-TURQ-2XS - Image attributes processor v1.0.33a - HBTS18006 TEE SPREAD 2-09.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9409-TURQ-2XS - Image attributes processor v1.0.33a - HBTS18006-TEE-SPREAD_04-3_1_X400.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9409-TURQ-2XS - Image attributes processor v1.0.33a - HBTS18006-TEE-SPREAD_04-3_2_X150.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9410-NAVY-2XS - Image attributes processor v1.0.33a - HBTS18006_TEE_SPREAD-11_X1300.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9410-NAVY-2XS - Image attributes processor v1.0.33a - HBTS18006_TEE_SPREAD-11_1_X400.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9410-NAVY-2XS - Image attributes processor v1.0.33a - HBTS18006_TEE_SPREAD-11_2_X150.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9411-2XS - Image attributes processor v1.0.33a - HS9411 - BREEDERS CROWN LOGO TEE.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9411-2XS - Image attributes processor v1.0.33a - HS9411_-_BREEDERS_CROWN_LOGO_TEE_1_X400.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9411-2XS - Image attributes processor v1.0.33a - HS9411_-_BREEDERS_CROWN_LOGO_TEE_2_X150.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9412-2XS - Image attributes processor v1.0.33a - HS9412 - BREEDERS CROWN RUNNING HORSES TEE.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9412-2XS - Image attributes processor v1.0.33a - HS9412_-_BREEDERS_CROWN_RUNNING_HORSES_TEE_1_X400.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9412-2XS - Image attributes processor v1.0.33a - HS9412_-_BREEDERS_CROWN_RUNNING_HORSES_TEE_2_X150.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9413-2XS - Image attributes processor v1.0.33a - HS9413 - BREEDERS CROWN LOGO THERMAL.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9413-2XS - Image attributes processor v1.0.33a - HS9413_-_BREEDERS_CROWN_LOGO_THERMAL_2_X400.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9413-2XS - Image attributes processor v1.0.33a - HS9413_-_BREEDERS_CROWN_LOGO_THERMAL_3_X150.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9413-XS - Image attributes processor v1.0.33a - HS9413 - BREEDERS CROWN LOGO THERMAL.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9414-2XS - Image attributes processor v1.0.33a - HS9414 - BREEDERS CROWN LOGO RAGLAN.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9414-2XS - Image attributes processor v1.0.33a - HS9414_-_BREEDERS_CROWN_LOGO_RAGLAN_1_X400.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9414-2XS - Image attributes processor v1.0.33a - HS9414_-_BREEDERS_CROWN_LOGO_RAGLAN_2_X150.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9415-CRIMSON-2XS - Image attributes processor v1.0.33a - HBTS18017_03.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9415-PEPPER-2XS - Image attributes processor v1.0.33a - HBTS18017_04.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9416-CRIMSON-2XS - Image attributes processor v1.0.33a - HBTS18017_05.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9416-PEPPER-2XS - Image attributes processor v1.0.33a - HBTS18017_08.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9000 - Image attributes processor v1.0.33a - BC-NIKE-POLO-BLACK-FULL.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9000 - Image attributes processor v1.0.33a - BC-NIKE-POLO-VALOR-BLUE-FULL.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9000 - Image attributes processor v1.0.33a - BC-NIKE-POLO-BLACK-SMALL.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9000 - Image attributes processor v1.0.33a - BC-NIKE-POLO-BLACK-THUMB.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9001 - Image attributes processor v1.0.33a - BC-PM-PERTH-MIDNIGHT-FULL.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9001 - Image attributes processor v1.0.33a - BC-PM-PERTH-BLACK-FULL.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9001 - Image attributes processor v1.0.33a - BC-PM-PERTH-MIDNIGHT-THUMB.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9002 - Image attributes processor v1.0.33a - HBC-PM-POLO-FULL.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9002 - Image attributes processor v1.0.33a - HBC-PM-POLO-SMALL.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9002 - Image attributes processor v1.0.33a - HBC-PM-POLO-THUMB.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9003 - Image attributes processor v1.0.33a - HBC-NIKE-POLO-RED-FULL.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9003 - Image attributes processor v1.0.33a - HBC-NIKE-POLO-RED-THUMB.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9004 - Image attributes processor v1.0.33a - HBC-PERTH-MIDNIGHT-FULL.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9004 - Image attributes processor v1.0.33a - HBC-PERTH-BLACK-FULL.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9004 - Image attributes processor v1.0.33a - HBC-PERTH-MIDNIGHT-SMALL.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9004 - Image attributes processor v1.0.33a - HBC-PERTH-MIDNIGHT-THUMB.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9005 - Image attributes processor v1.0.33a - HS9005 - PROPERTY OF FLEECE - BLACK.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9006 - Image attributes processor v1.0.33a - GDH400.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9008 - Image attributes processor v1.0.33a - HBTS18017_01.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9008 - Image attributes processor v1.0.33a - HBTS18017_02.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9200 - Image attributes processor v1.0.33a - BC-ADAMS-HAT-BABY-BLUE-FULL.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9200 - Image attributes processor v1.0.33a - BC-ADAMS-HAT-CHARCOAL-FULL.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9200 - Image attributes processor v1.0.33a - BC-ADAMS-HAT-CORAL-FULL.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9200 - Image attributes processor v1.0.33a - BC-ADAMS-HAT-BABY-BLUE-THUMB.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9201 - Image attributes processor v1.0.33a - BC-NIKE-HAT-WHITE-FULL.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9201 - Image attributes processor v1.0.33a - BC-NIKE-HAT-VALOR-BLUE-FULL.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9201 - Image attributes processor v1.0.33a - BC-NIKE-HAT-WHITE-THUMB.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9400 - Image attributes processor v1.0.33a - HAMBO-BAR-GREY.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9400 - Image attributes processor v1.0.33a - HAMBO TEXT TEAL.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9400 - Image attributes processor v1.0.33a - HAMBO-RASP-BAR.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9400 - Image attributes processor v1.0.33a - HAMBO_BAR_LOGO_RED_X1300.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9400 - Image attributes processor v1.0.33a - HS_BAR_LOGO_TURQOUISE_X1300.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9401 - Image attributes processor v1.0.33a - HAMBO-BADGE-RED-REV_X1300.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9401 - Image attributes processor v1.0.33a - HAMBO-BADGE-FRONT-RED.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9401 - Image attributes processor v1.0.33a - HAMBO-BADGE-RED-REV_1_X400.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9401 - Image attributes processor v1.0.33a - HAMBO-BADGE-RED-REV_2_X150.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9402 - Image attributes processor v1.0.33a - HAMBO ARCH RASP.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9402 - Image attributes processor v1.0.33a - HAMBO-ARCH-RAS.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9402 - Image attributes processor v1.0.33a - COMFORT COLORS 1717 - HAMBO ARCH BLUE.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9402 - Image attributes processor v1.0.33a - HAMBO-ARCH-BLK.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9402 - Image attributes processor v1.0.33a - 1717 - TRUE NAVY - HAMBO ARCH.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9403 - Image attributes processor v1.0.33a - HAMBO_CIRCLE_GREEN_BACK_X1300.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9403 - Image attributes processor v1.0.33a - HAMBO_CIRCLE_BLUE_BACK_2_X1300.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9404 - Image attributes processor v1.0.33a - HS-TEA-TOWEL.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9408 - Image attributes processor v1.0.33a - HBTS18006 TEE SPREAD 2-07.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9408 - Image attributes processor v1.0.33a - HBTS18006_TEE_SPREAD-24_1_X400.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9408 - Image attributes processor v1.0.33a - HBTS18006_TEE_SPREAD-24_2_X150.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9409 - Image attributes processor v1.0.33a - HBTS18006-TEE-SPREAD_04-2_X1300.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9409 - Image attributes processor v1.0.33a - HBTS18006-TEE-SPREAD_04-1_X1300.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9409 - Image attributes processor v1.0.33a - HBTS18006-TEE-SPREAD_04-4_X1300.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9409 - Image attributes processor v1.0.33a - HBTS18006 TEE SPREAD 2-10.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9409 - Image attributes processor v1.0.33a - HBTS18006-TEE-SPREAD_04-3_X1300.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9409 - Image attributes processor v1.0.33a - HBTS18006 TEE SPREAD 2-09.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9409 - Image attributes processor v1.0.33a - HBTS18006-TEE-SPREAD_04-2_1_X400 (1).JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9409 - Image attributes processor v1.0.33a - HBTS18006-TEE-SPREAD_04-2_2_X150.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9410 - Image attributes processor v1.0.33a - HBTS18006_TEE_SPREAD-11_X1300.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9410 - Image attributes processor v1.0.33a - HBTS18006_TEE_SPREAD-11_1_X400.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9410 - Image attributes processor v1.0.33a - HBTS18006_TEE_SPREAD-11_2_X150.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9411 - Image attributes processor v1.0.33a - HS9411 - BREEDERS CROWN LOGO TEE.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9411 - Image attributes processor v1.0.33a - HS9411_-_BREEDERS_CROWN_LOGO_TEE_1_X400.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9411 - Image attributes processor v1.0.33a - HS9411_-_BREEDERS_CROWN_LOGO_TEE_2_X150.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9412 - Image attributes processor v1.0.33a - HS9412 - BREEDERS CROWN RUNNING HORSES TEE.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9412 - Image attributes processor v1.0.33a - HS9412_-_BREEDERS_CROWN_RUNNING_HORSES_TEE_1_X400.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9412 - Image attributes processor v1.0.33a - HS9412_-_BREEDERS_CROWN_RUNNING_HORSES_TEE_2_X150.JPG cannot be found in images path
+
+
+
+------------------------
+
+title:MAGMI by dweeves - version:0.7.22
+
+startup:Running Magmi Product Import Engine v1.9.1 by dweeves
+
+startup:Import Profile:NGCImportNew
+
+startup:Import Mode:create
+
+step:step:0.5%
+
+startup:Attributeset update is enabled.
+
+plugin;Magmi_CSVDataSource;pluginhello:CSV Datasource-1.3.1-Dweeves- 
+
+plugin;Magmi_OptimizerPlugin;pluginhello:Magmi Optimizer-1.0.5-Dweeves-http://wiki.magmi.org/index.php?title=Magmi_Optimizer 
+
+plugin;CategoryImporter;pluginhello:On the fly category creator/importer-0.2.5-Dweeves-http://wiki.magmi.org/index.php?title=On_the_fly_category_creator/importer 
+
+plugin;ImageAttributeItemProcessor;pluginhello:Image attributes processor-1.0.33a-Dweeves, Tommy Goode-http://wiki.magmi.org/index.php?title=Image_attributes_processor 
+
+plugin;ColumnMappingItemProcessor;pluginhello:Column mapper-0.0.3b-Dweeves-http://wiki.magmi.org/index.php?title=Column_mapper 
+
+plugin;DefaultValuesItemProcessor;pluginhello:Default Values setter-0.0.5-Dweeves-http://wiki.magmi.org/index.php?title=Default_Values_setter 
+
+plugin;ValueReplacerItemProcessor;pluginhello:Value Replacer-0.0.8a-Dweeves-http://wiki.magmi.org/index.php?title=Value_Replacer 
+
+plugin;Magmi_ConfigurableItemProcessor;pluginhello:Configurable Item processor-1.3.7a-Dweeves-http://wiki.magmi.org/index.php?title=Configurable_Item_processor 
+
+plugin;Magmi_DefaultAttributeItemProcessor;pluginhello:Standard Attribute Import-1.1-Dweeves- 
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Optimizing magmi
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Adding index MAGMI_EAOV_OPTIMIZATION_IDX on eav_attribute_option_value
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Already optmized!
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Adding index MAGMI_CPEM_OPTIMIZATION_IDX on catalog_product_entity_media_gallery
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Already optmized!
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Adding index MAGMI_CCEV_OPTIMIZATION_IDX on catalog_category_entity_varchar
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Already optmized!
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Adding index MAGMI_EA_CODE_OPTIMIZATION_IDX on eav_attribute
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Already optmized!
+
+startup:Performing Datasource Lookup...
+
+lookup:418:0.0065829753875732
+
+startup:Found 418 records, took 0.0065829753875732 sec
+
+info:Initialized attribute_set_infos!
+
+columns:31
+
+plugin;DefaultValuesItemProcessor;startup:Default Values setter v0.0.5 - Adding Columns options_container
+
+plugin;Magmi_DefaultAttributeItemProcessor;startup:Standard Attribute Import v1.1 - Newly created items will have default values for columns:page_layout
+
+startup:Ajusted processed columns:34
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9000-BLACK-2XS - Image attributes processor v1.0.33a - BC-NIKE-POLO-BLACK-FULL.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9000-BLACK-2XS - Image attributes processor v1.0.33a - BC-NIKE-POLO-BLACK-SMALL.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9000-BLACK-2XS - Image attributes processor v1.0.33a - BC-NIKE-POLO-BLACK-THUMB.JPG cannot be found in images path
+
+itime:3 - 0.02188515663147 - 0.02188515663147
+
+dbtime:25 - 0.017707109451294 - 0.017707109451294 - 25
+
+itime:6 - 0.030561923980713 - 0.008591890335083
+
+dbtime:55 - 0.021858215332031 - 0.0041511058807373 - 30
+
+itime:9 - 0.040070056915283 - 0.0094320774078369
+
+dbtime:85 - 0.026518106460571 - 0.00465989112854 - 30
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9000-VLRBLU-2XS - Image attributes processor v1.0.33a - BC-NIKE-POLO-VALOR-BLUE-FULL.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9000-VLRBLU-2XS - Image attributes processor v1.0.33a - BC-NIKE-POLO-VALOR-BLUE-SMALL.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9000-VLRBLU-2XS - Image attributes processor v1.0.33a - BC-NIKE-POLO-VALOR-BLUE-THUMB.JPG cannot be found in images path
+
+itime:12 - 0.048465967178345 - 0.0083160400390625
+
+dbtime:115 - 0.030664205551147 - 0.0041460990905762 - 30
+
+itime:15 - 0.058123111724854 - 0.0095889568328857
+
+dbtime:145 - 0.034972667694092 - 0.0043084621429443 - 30
+
+itime:18 - 0.067446947097778 - 0.0092349052429199
+
+dbtime:175 - 0.039413213729858 - 0.0044405460357666 - 30
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9001-BLACK-2XS - Image attributes processor v1.0.33a - BC-PM-PERTH-BLACK-FULL.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9001-BLACK-2XS - Image attributes processor v1.0.33a - BC-PM-PERTH-BLACK-SMALL.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9001-BLACK-2XS - Image attributes processor v1.0.33a - BC-PM-PERTH-BLACK-THUMB.JPG cannot be found in images path
+
+itime:21 - 0.075719118118286 - 0.008188009262085
+
+dbtime:205 - 0.043080806732178 - 0.0036675930023193 - 30
+
+itime:24 - 0.083554029464722 - 0.0077641010284424
+
+dbtime:235 - 0.04676365852356 - 0.0036828517913818 - 30
+
+itime:27 - 0.091609954833984 - 0.0079758167266846
+
+dbtime:265 - 0.050589799880981 - 0.0038261413574219 - 30
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9001-MIDNIGHT-2XS - Image attributes processor v1.0.33a - BC-PM-PERTH-MIDNIGHT-FULL.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9001-MIDNIGHT-2XS - Image attributes processor v1.0.33a - BC-PM-PERTH-MIDNIGHT-THUMB.JPG cannot be found in images path
+
+itime:30 - 0.10324907302856 - 0.011537075042725
+
+dbtime:295 - 0.056707143783569 - 0.0061173439025879 - 30
+
+itime:33 - 0.115483045578 - 0.012120008468628
+
+dbtime:325 - 0.062418937683105 - 0.0057117938995361 - 30
+
+itime:36 - 0.12517309188843 - 0.0095651149749756
+
+dbtime:355 - 0.066520214080811 - 0.0041012763977051 - 30
+
+itime:39 - 0.13333606719971 - 0.0080690383911133
+
+dbtime:385 - 0.070203304290771 - 0.0036830902099609 - 30
+
+itime:42 - 0.14195394515991 - 0.0085268020629883
+
+dbtime:415 - 0.07383394241333 - 0.0036306381225586 - 30
+
+itime:45 - 0.14971494674683 - 0.0076849460601807
+
+dbtime:445 - 0.077216863632202 - 0.0033829212188721 - 30
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9002-2XS - Image attributes processor v1.0.33a - HBC-PM-POLO-FULL.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9002-2XS - Image attributes processor v1.0.33a - HBC-PM-POLO-SMALL.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9002-2XS - Image attributes processor v1.0.33a - HBC-PM-POLO-THUMB.JPG cannot be found in images path
+
+itime:48 - 0.16514611244202 - 0.015357971191406
+
+dbtime:475 - 0.087210416793823 - 0.0099935531616211 - 30
+
+itime:51 - 0.17599010467529 - 0.010763168334961
+
+dbtime:505 - 0.09282398223877 - 0.0056135654449463 - 30
+
+itime:54 - 0.18712615966797 - 0.011037111282349
+
+dbtime:535 - 0.098153591156006 - 0.0053296089172363 - 30
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9003-BLACK-2XS - Image attributes processor v1.0.33a - HBC-NIKE-POLO-BLACK-FULL.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9003-BLACK-2XS - Image attributes processor v1.0.33a - HBC-NIKE-POLO-BLACK-SMALL.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9003-BLACK-2XS - Image attributes processor v1.0.33a - HBC-NIKE-POLO-BLACK-THUMB.JPG cannot be found in images path
+
+itime:57 - 0.19824910163879 - 0.011029005050659
+
+dbtime:565 - 0.10296988487244 - 0.0048162937164307 - 30
+
+itime:60 - 0.20885610580444 - 0.010507106781006
+
+dbtime:595 - 0.10772442817688 - 0.0047545433044434 - 30
+
+itime:63 - 0.22062611579895 - 0.011648178100586
+
+dbtime:625 - 0.11258053779602 - 0.0048561096191406 - 30
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9003-VAR RED-2XS - Image attributes processor v1.0.33a - HBC-NIKE-POLO-RED-FULL.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9003-VAR RED-2XS - Image attributes processor v1.0.33a - HBC-NIKE-POLO-RED-THUMB.JPG cannot be found in images path
+
+itime:66 - 0.23029112815857 - 0.0095751285552979
+
+dbtime:655 - 0.11676454544067 - 0.0041840076446533 - 30
+
+itime:69 - 0.23999309539795 - 0.0096149444580078
+
+dbtime:685 - 0.12147545814514 - 0.0047109127044678 - 30
+
+itime:72 - 0.25088310241699 - 0.010797023773193
+
+dbtime:715 - 0.1268048286438 - 0.0053293704986572 - 30
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9004-BLACK-2XS - Image attributes processor v1.0.33a - HBC-PERTH-BLACK-FULL.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9004-BLACK-2XS - Image attributes processor v1.0.33a - HBC-PERTH-BLACK-SMALL.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9004-BLACK-2XS - Image attributes processor v1.0.33a - HBC-PERTH-BLACK-THUMB.JPG cannot be found in images path
+
+itime:75 - 0.26170992851257 - 0.010727882385254
+
+dbtime:745 - 0.13198184967041 - 0.0051770210266113 - 30
+
+itime:78 - 0.27109694480896 - 0.0092978477478027
+
+dbtime:775 - 0.13628029823303 - 0.0042984485626221 - 30
+
+itime:81 - 0.27970314025879 - 0.0085241794586182
+
+dbtime:805 - 0.14010047912598 - 0.0038201808929443 - 30
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9004-MIDNIGHT-2XS - Image attributes processor v1.0.33a - HBC-PERTH-MIDNIGHT-FULL.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9004-MIDNIGHT-2XS - Image attributes processor v1.0.33a - HBC-PERTH-MIDNIGHT-SMALL.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9004-MIDNIGHT-2XS - Image attributes processor v1.0.33a - HBC-PERTH-MIDNIGHT-THUMB.JPG cannot be found in images path
+
+itime:84 - 0.28819513320923 - 0.008418083190918
+
+dbtime:835 - 0.14382076263428 - 0.0037202835083008 - 30
+
+itime:87 - 0.298495054245 - 0.010229110717773
+
+dbtime:865 - 0.14866018295288 - 0.0048394203186035 - 30
+
+itime:90 - 0.30975198745728 - 0.011148929595947
+
+dbtime:895 - 0.15380525588989 - 0.0051450729370117 - 30
+
+itime:93 - 0.31930708885193 - 0.0094659328460693
+
+dbtime:925 - 0.15816307067871 - 0.0043578147888184 - 30
+
+itime:96 - 0.33226299285889 - 0.01283597946167
+
+dbtime:955 - 0.16403460502625 - 0.0058715343475342 - 30
+
+itime:99 - 0.34450101852417 - 0.012127876281738
+
+dbtime:985 - 0.16928100585938 - 0.0052464008331299 - 30
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9005-2XS - Image attributes processor v1.0.33a - HS9005 - PROPERTY OF FLEECE - BLACK.JPG cannot be found in images path
+
+itime:102 - 0.35710406303406 - 0.012494087219238
+
+dbtime:1015 - 0.17494678497314 - 0.0056657791137695 - 30
+
+itime:105 - 0.36870193481445 - 0.011492967605591
+
+dbtime:1045 - 0.17989349365234 - 0.0049467086791992 - 30
+
+itime:108 - 0.3805570602417 - 0.011748075485229
+
+dbtime:1075 - 0.18528914451599 - 0.0053956508636475 - 30
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9005-2XS - Image attributes processor v1.0.33a - HS9005 - PROPERTY OF FLEECE ON GREY - CONCRETE GREY.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9005-2XS - Image attributes processor v1.0.33a - HS9002_-_BREEDERS_CROWN_PROPERTY_OF_GREY_FLEECE_1_X400.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9005-2XS - Image attributes processor v1.0.33a - HS9002_-_BREEDERS_CROWN_PROPERTY_OF_GREY_FLEECE_2_X150.JPG cannot be found in images path
+
+itime:111 - 0.39242815971375 - 0.011760234832764
+
+dbtime:1105 - 0.19015979766846 - 0.0048706531524658 - 30
+
+itime:114 - 0.40782904624939 - 0.015290021896362
+
+dbtime:1135 - 0.19721174240112 - 0.007051944732666 - 30
+
+itime:117 - 0.42109799385071 - 0.013139963150024
+
+dbtime:1165 - 0.20284581184387 - 0.005634069442749 - 30
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9006-2XS - Image attributes processor v1.0.33a - GDH400.JPG cannot be found in images path
+
+itime:120 - 0.4325840473175 - 0.01136589050293
+
+dbtime:1195 - 0.20811700820923 - 0.0052711963653564 - 30
+
+itime:123 - 0.44222903251648 - 0.0095620155334473
+
+dbtime:1225 - 0.21245646476746 - 0.0043394565582275 - 30
+
+itime:126 - 0.45126914978027 - 0.0089499950408936
+
+dbtime:1255 - 0.21626138687134 - 0.0038049221038818 - 30
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9008-BLU JEAN-2XS - Image attributes processor v1.0.33a - HBTS18017_01.JPG cannot be found in images path
+
+itime:129 - 0.45991396903992 - 0.0085630416870117
+
+dbtime:1285 - 0.21978116035461 - 0.0035197734832764 - 30
+
+itime:132 - 0.46855115890503 - 0.0085651874542236
+
+dbtime:1315 - 0.22353625297546 - 0.0037550926208496 - 30
+
+itime:135 - 0.47767305374146 - 0.0090229511260986
+
+dbtime:1345 - 0.22754836082458 - 0.0040121078491211 - 30
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9008-SEAFOAM-2XS - Image attributes processor v1.0.33a - HBTS18017_02.JPG cannot be found in images path
+
+itime:138 - 0.48684692382812 - 0.0090818405151367
+
+dbtime:1375 - 0.23151564598083 - 0.00396728515625 - 30
+
+itime:141 - 0.49869608879089 - 0.011773109436035
+
+dbtime:1405 - 0.23694396018982 - 0.0054283142089844 - 30
+
+itime:144 - 0.51541209220886 - 0.016584157943726
+
+dbtime:1435 - 0.24466562271118 - 0.0077216625213623 - 30
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9200-BABYBLUE - Image attributes processor v1.0.33a - BC-ADAMS-HAT-BABY-BLUE-FULL.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9200-BABYBLUE - Image attributes processor v1.0.33a - BC-ADAMS-HAT-BABY-BLUE-THUMB.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9200-CHARCOAL - Image attributes processor v1.0.33a - BC-ADAMS-HAT-CHARCOAL-FULL.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9200-CHARCOAL - Image attributes processor v1.0.33a - BC-ADAMS-HAT-CHARCOAL-SMALL.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9200-CHARCOAL - Image attributes processor v1.0.33a - BC-ADAMS-HAT-CHARCOAL-THUMB.JPG cannot be found in images path
+
+itime:147 - 0.52875900268555 - 0.013223886489868
+
+dbtime:1465 - 0.25134444236755 - 0.0066788196563721 - 30
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9200-CORAL - Image attributes processor v1.0.33a - BC-ADAMS-HAT-CORAL-FULL.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9200-CORAL - Image attributes processor v1.0.33a - BC-ADAMS-HAT-CORAL-SMALL.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9200-CORAL - Image attributes processor v1.0.33a - BC-ADAMS-HAT-CORAL-THUMB.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9201-PROGREEN - Image attributes processor v1.0.33a - BC-NIKE-HAT-GREEN-FULL.JPEG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9201-PROGREEN - Image attributes processor v1.0.33a - BC-NIKE-HAT-GREEN-SMALL.JPEG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9201-PROGREEN - Image attributes processor v1.0.33a - BC-NIKE-HAT-GREEN-THUMB.JPEG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9201-VLRBLUE - Image attributes processor v1.0.33a - BC-NIKE-HAT-VALOR-BLUE-FULL.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9201-VLRBLUE - Image attributes processor v1.0.33a - BC-NIKE-HAT-VALOR-BLUE-SMALL.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9201-VLRBLUE - Image attributes processor v1.0.33a - BC-NIKE-HAT-VALOR-BLUE-THUMB.JPG cannot be found in images path
+
+itime:150 - 0.54122614860535 - 0.01239013671875
+
+dbtime:1495 - 0.25698924064636 - 0.0056447982788086 - 30
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9201-WHITE - Image attributes processor v1.0.33a - BC-NIKE-HAT-WHITE-FULL.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9201-WHITE - Image attributes processor v1.0.33a - BC-NIKE-HAT-WHITE-SMALL.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9201-WHITE - Image attributes processor v1.0.33a - BC-NIKE-HAT-WHITE-THUMB.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9400-DK GR HR-2XS - Image attributes processor v1.0.33a - HAMBO-BAR-GREY.JPG cannot be found in images path
+
+itime:153 - 0.55205392837524 - 0.010751962661743
+
+dbtime:1525 - 0.26204919815063 - 0.0050599575042725 - 30
+
+itime:156 - 0.56119704246521 - 0.0090670585632324
+
+dbtime:1555 - 0.26592564582825 - 0.0038764476776123 - 30
+
+itime:159 - 0.56991505622864 - 0.0086109638214111
+
+dbtime:1585 - 0.26951313018799 - 0.0035874843597412 - 30
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9400-HTR DP TL-2XS - Image attributes processor v1.0.33a - HAMBO TEXT TEAL.JPG cannot be found in images path
+
+itime:162 - 0.57867908477783 - 0.0086929798126221
+
+dbtime:1615 - 0.27302241325378 - 0.0035092830657959 - 30
+
+itime:165 - 0.58752703666687 - 0.0087730884552002
+
+dbtime:1645 - 0.27674508094788 - 0.0037226676940918 - 30
+
+itime:168 - 0.59983897209167 - 0.012243986129761
+
+dbtime:1675 - 0.2823007106781 - 0.0055556297302246 - 30
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9400-HTR RASP-2XS - Image attributes processor v1.0.33a - HAMBO-RASP-BAR.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9400-HTR RASP-2XS - Image attributes processor v1.0.33a - HAMBO TEXT RASP.JPG cannot be found in images path
+
+itime:171 - 0.61472010612488 - 0.014765024185181
+
+dbtime:1705 - 0.28938221931458 - 0.0070815086364746 - 30
+
+itime:174 - 0.62886595726013 - 0.014029026031494
+
+dbtime:1735 - 0.29652404785156 - 0.0071418285369873 - 30
+
+itime:177 - 0.63983511924744 - 0.010863065719604
+
+dbtime:1765 - 0.30100655555725 - 0.0044825077056885 - 30
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9400-HTR RED-2XS - Image attributes processor v1.0.33a - HAMBO_BAR_LOGO_RED_X1300.JPG cannot be found in images path
+
+itime:180 - 0.65028715133667 - 0.010349035263062
+
+dbtime:1795 - 0.3053719997406 - 0.0043654441833496 - 30
+
+itime:183 - 0.66077208518982 - 0.0103919506073
+
+dbtime:1825 - 0.30954217910767 - 0.0041701793670654 - 30
+
+itime:186 - 0.67080092430115 - 0.0099339485168457
+
+dbtime:1855 - 0.31350421905518 - 0.0039620399475098 - 30
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9400-TURQ-2XS - Image attributes processor v1.0.33a - HS_BAR_LOGO_TURQOUISE_X1300.JPG cannot be found in images path
+
+itime:189 - 0.68074703216553 - 0.0098519325256348
+
+dbtime:1885 - 0.31734943389893 - 0.00384521484375 - 30
+
+itime:192 - 0.69065403938293 - 0.0098180770874023
+
+dbtime:1915 - 0.3211669921875 - 0.0038175582885742 - 30
+
+itime:195 - 0.70509815216064 - 0.014349222183228
+
+dbtime:1945 - 0.32775187492371 - 0.0065848827362061 - 30
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9401-2XS - Image attributes processor v1.0.33a - HAMBO-BADGE-RED-REV_X1300.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9401-2XS - Image attributes processor v1.0.33a - HAMBO-BADGE-FRONT-RED.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9401-2XS - Image attributes processor v1.0.33a - HAMBO-BADGE-RED-REV_1_X400.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9401-2XS - Image attributes processor v1.0.33a - HAMBO-BADGE-RED-REV_2_X150.JPG cannot be found in images path
+
+itime:198 - 0.72006511688232 - 0.014827013015747
+
+dbtime:1975 - 0.33491516113281 - 0.0071632862091064 - 30
+
+itime:201 - 0.73122501373291 - 0.01106595993042
+
+dbtime:2005 - 0.34068202972412 - 0.0057668685913086 - 30
+
+itime:204 - 0.74173498153687 - 0.010411024093628
+
+dbtime:2035 - 0.34623003005981 - 0.0055480003356934 - 30
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9402-CRUNCHBERY-2XS - Image attributes processor v1.0.33a - HAMBO-ARCH-RAS.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9402-CRUNCHBERY-2XS - Image attributes processor v1.0.33a - HAMBO ARCH - CRUNCHBERRY.JPG cannot be found in images path
+
+itime:207 - 0.7504780292511 - 0.0086669921875
+
+dbtime:2065 - 0.35008883476257 - 0.0038588047027588 - 30
+
+itime:210 - 0.75948309898376 - 0.0089349746704102
+
+dbtime:2095 - 0.35383224487305 - 0.0037434101104736 - 30
+
+itime:213 - 0.76835298538208 - 0.0087859630584717
+
+dbtime:2125 - 0.35767269134521 - 0.003840446472168 - 30
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9402-FLO BLUE-2XS - Image attributes processor v1.0.33a - COMFORT COLORS 1717 - HAMBO ARCH BLUE.JPG cannot be found in images path
+
+itime:216 - 0.7776210308075 - 0.0091788768768311
+
+dbtime:2155 - 0.36140489578247 - 0.0037322044372559 - 30
+
+itime:219 - 0.78799200057983 - 0.010297060012817
+
+dbtime:2185 - 0.36521077156067 - 0.0038058757781982 - 30
+
+itime:222 - 0.80157399177551 - 0.013506889343262
+
+dbtime:2215 - 0.37199091911316 - 0.0067801475524902 - 30
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9402-PEPPER-2XS - Image attributes processor v1.0.33a - HAMBO-ARCH-BLK.JPG cannot be found in images path
+
+itime:225 - 0.81815409660339 - 0.016450166702271
+
+dbtime:2245 - 0.3804349899292 - 0.00844407081604 - 30
+
+itime:228 - 0.82919907569885 - 0.010919094085693
+
+dbtime:2275 - 0.38570284843445 - 0.005267858505249 - 30
+
+itime:231 - 0.83871412277222 - 0.0094330310821533
+
+dbtime:2305 - 0.38972187042236 - 0.004019021987915 - 30
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9402-TRUE NAVY-2XS - Image attributes processor v1.0.33a - 1717 - TRUE NAVY - HAMBO ARCH.JPG cannot be found in images path
+
+itime:234 - 0.8524341583252 - 0.01361608505249
+
+dbtime:2335 - 0.39624285697937 - 0.0065209865570068 - 30
+
+itime:237 - 0.86628413200378 - 0.013756036758423
+
+dbtime:2365 - 0.40237998962402 - 0.0061371326446533 - 30
+
+itime:240 - 0.87693405151367 - 0.010570049285889
+
+dbtime:2395 - 0.40733814239502 - 0.0049581527709961 - 30
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9403-BJWHITE-2XS - Image attributes processor v1.0.33a - HAMBO_CIRCLE_BLUE_BACK_2_X1300.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9403-BJWHITE-2XS - Image attributes processor v1.0.33a - HAMBO_CIRCLE_BLUE_BACK_1_X400.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9403-BJWHITE-2XS - Image attributes processor v1.0.33a - HAMBO_CIRCLE_BLUE_BACK_X150.JPG cannot be found in images path
+
+itime:243 - 0.88750910758972 - 0.010497093200684
+
+dbtime:2425 - 0.41246366500854 - 0.0051255226135254 - 30
+
+itime:246 - 0.89899396896362 - 0.011413812637329
+
+dbtime:2455 - 0.41828393936157 - 0.0058202743530273 - 30
+
+itime:249 - 0.91159009933472 - 0.012495994567871
+
+dbtime:2485 - 0.42398762702942 - 0.0057036876678467 - 30
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9403-CRIMSON-2XS - Image attributes processor v1.0.33a - HS POCKET TEE - BACK - CRIMSON.JPG cannot be found in images path
+
+itime:252 - 0.92544913291931 - 0.013739109039307
+
+dbtime:2515 - 0.43009567260742 - 0.0061080455780029 - 30
+
+itime:255 - 0.93697214126587 - 0.011419057846069
+
+dbtime:2545 - 0.43537926673889 - 0.0052835941314697 - 30
+
+itime:258 - 0.94575214385986 - 0.0086979866027832
+
+dbtime:2575 - 0.43948340415955 - 0.0041041374206543 - 30
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9403-LT GREEN-2XS - Image attributes processor v1.0.33a - HAMBO CIRCLE GREEN BACK.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9403-LT GREEN-2XS - Image attributes processor v1.0.33a - HAMBO_CIRCLE_GREEN_BACK_1_X400.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9403-LT GREEN-2XS - Image attributes processor v1.0.33a - HAMBO_CIRCLE_GREEN_BACK_2_X150.JPG cannot be found in images path
+
+itime:261 - 0.9545590877533 - 0.0087289810180664
+
+dbtime:2605 - 0.44313597679138 - 0.0036525726318359 - 30
+
+itime:264 - 0.96315598487854 - 0.0085258483886719
+
+dbtime:2635 - 0.44699859619141 - 0.0038626194000244 - 30
+
+itime:267 - 0.97124314308167 - 0.007997989654541
+
+dbtime:2665 - 0.45071244239807 - 0.003713846206665 - 30
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9403-PEPPER-2XS - Image attributes processor v1.0.33a - HAMBO-CIRCLE-PEPPER-BACK.JPG cannot be found in images path
+
+itime:270 - 0.98251700401306 - 0.011193990707397
+
+dbtime:2695 - 0.45611214637756 - 0.0053997039794922 - 30
+
+itime:273 - 0.99674201011658 - 0.014124870300293
+
+dbtime:2725 - 0.46194958686829 - 0.0058374404907227 - 30
+
+itime:276 - 1.0115089416504 - 0.014669895172119
+
+dbtime:2755 - 0.46881747245789 - 0.0068678855895996 - 30
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9404-RED - Image attributes processor v1.0.33a - HS-TEA-TOWEL.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9404-RED - Image attributes processor v1.0.33a - HS-TEA-TOWEL_X400.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9404-RED - Image attributes processor v1.0.33a - HS-TEA-TOWEL_1_X150.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9408-DARK GREY-2XS - Image attributes processor v1.0.33a - HBTS18006_TEE_SPREAD-24_X1300.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9408-DARK GREY-2XS - Image attributes processor v1.0.33a - HBTS18006 TEE SPREAD 2-07.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9408-DARK GREY-2XS - Image attributes processor v1.0.33a - HBTS18006_TEE_SPREAD-24_1_X400.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9408-DARK GREY-2XS - Image attributes processor v1.0.33a - HBTS18006_TEE_SPREAD-24_2_X150.JPG cannot be found in images path
+
+itime:279 - 1.026848077774 - 0.015177011489868
+
+dbtime:2785 - 0.47555017471313 - 0.006732702255249 - 30
+
+itime:282 - 1.0395691394806 - 0.012619018554688
+
+dbtime:2815 - 0.48153328895569 - 0.0059831142425537 - 30
+
+itime:285 - 1.0505590438843 - 0.010900974273682
+
+dbtime:2845 - 0.48597764968872 - 0.0044443607330322 - 30
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9409-HTR BRN-2XS - Image attributes processor v1.0.33a - HBTS18006-TEE-SPREAD_04-1_X1300.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9409-HTR BRN-2XS - Image attributes processor v1.0.33a - HBTS18006-TEE-SPREAD_04-4_X1300.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9409-HTR BRN-2XS - Image attributes processor v1.0.33a - HBTS18006-TEE-SPREAD_04-1_1_X400.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9409-HTR BRN-2XS - Image attributes processor v1.0.33a - HBTS18006-TEE-SPREAD_04-1_2_X150.JPG cannot be found in images path
+
+itime:288 - 1.0611159801483 - 0.010470867156982
+
+dbtime:2875 - 0.49065089225769 - 0.0046732425689697 - 30
+
+itime:291 - 1.0705399513245 - 0.0093488693237305
+
+dbtime:2905 - 0.49479651451111 - 0.004145622253418 - 30
+
+itime:294 - 1.0794539451599 - 0.0088329315185547
+
+dbtime:2935 - 0.49848580360413 - 0.0036892890930176 - 30
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9409-HTR KELL-2XS - Image attributes processor v1.0.33a - HBTS18006-TEE-SPREAD_04-2_X1300.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9409-HTR KELL-2XS - Image attributes processor v1.0.33a - HBTS18006 TEE SPREAD 2-10.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9409-HTR KELL-2XS - Image attributes processor v1.0.33a - HBTS18006-TEE-SPREAD_04-2_1_X400 (1).JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9409-HTR KELL-2XS - Image attributes processor v1.0.33a - HBTS18006-TEE-SPREAD_04-2_2_X150.JPG cannot be found in images path
+
+itime:297 - 1.0885360240936 - 0.0089988708496094
+
+dbtime:2965 - 0.50232553482056 - 0.0038397312164307 - 30
+
+itime:300 - 1.1004250049591 - 0.011782884597778
+
+dbtime:2995 - 0.50804114341736 - 0.0057156085968018 - 30
+
+itime:303 - 1.1120381355286 - 0.011521100997925
+
+dbtime:3025 - 0.51421165466309 - 0.0061705112457275 - 30
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9409-TURQ-2XS - Image attributes processor v1.0.33a - HBTS18006-TEE-SPREAD_04-3_X1300.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9409-TURQ-2XS - Image attributes processor v1.0.33a - HBTS18006 TEE SPREAD 2-09.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9409-TURQ-2XS - Image attributes processor v1.0.33a - HBTS18006-TEE-SPREAD_04-3_1_X400.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9409-TURQ-2XS - Image attributes processor v1.0.33a - HBTS18006-TEE-SPREAD_04-3_2_X150.JPG cannot be found in images path
+
+itime:306 - 1.1249380111694 - 0.012788057327271
+
+dbtime:3055 - 0.52065563201904 - 0.006443977355957 - 30
+
+itime:309 - 1.1361660957336 - 0.011152982711792
+
+dbtime:3085 - 0.52660012245178 - 0.0059444904327393 - 30
+
+itime:312 - 1.147292137146 - 0.011016130447388
+
+dbtime:3115 - 0.53154182434082 - 0.0049417018890381 - 30
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9410-NAVY-2XS - Image attributes processor v1.0.33a - HBTS18006_TEE_SPREAD-11_X1300.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9410-NAVY-2XS - Image attributes processor v1.0.33a - HBTS18006_TEE_SPREAD-11_1_X400.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9410-NAVY-2XS - Image attributes processor v1.0.33a - HBTS18006_TEE_SPREAD-11_2_X150.JPG cannot be found in images path
+
+itime:315 - 1.1595139503479 - 0.012132883071899
+
+dbtime:3145 - 0.53684401512146 - 0.0053021907806396 - 30
+
+itime:318 - 1.1682679653168 - 0.0086798667907715
+
+dbtime:3175 - 0.54054665565491 - 0.0037026405334473 - 30
+
+itime:321 - 1.1764090061188 - 0.0080649852752686
+
+dbtime:3205 - 0.54399609565735 - 0.0034494400024414 - 30
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9411-2XS - Image attributes processor v1.0.33a - HS9411 - BREEDERS CROWN LOGO TEE.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9411-2XS - Image attributes processor v1.0.33a - HS9411_-_BREEDERS_CROWN_LOGO_TEE_1_X400.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9411-2XS - Image attributes processor v1.0.33a - HS9411_-_BREEDERS_CROWN_LOGO_TEE_2_X150.JPG cannot be found in images path
+
+itime:324 - 1.1868591308594 - 0.010373115539551
+
+dbtime:3235 - 0.54827523231506 - 0.0042791366577148 - 30
+
+itime:327 - 1.1981091499329 - 0.011181116104126
+
+dbtime:3265 - 0.55318427085876 - 0.0049090385437012 - 30
+
+itime:330 - 1.2088041305542 - 0.010580062866211
+
+dbtime:3295 - 0.55802202224731 - 0.0048377513885498 - 30
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9412-2XS - Image attributes processor v1.0.33a - HS9412 - BREEDERS CROWN RUNNING HORSES TEE.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9412-2XS - Image attributes processor v1.0.33a - HS9412_-_BREEDERS_CROWN_RUNNING_HORSES_TEE_1_X400.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9412-2XS - Image attributes processor v1.0.33a - HS9412_-_BREEDERS_CROWN_RUNNING_HORSES_TEE_2_X150.JPG cannot be found in images path
+
+itime:333 - 1.2176921367645 - 0.008803129196167
+
+dbtime:3325 - 0.56201648712158 - 0.0039944648742676 - 30
+
+itime:336 - 1.226261138916 - 0.0085060596466064
+
+dbtime:3355 - 0.56591844558716 - 0.0039019584655762 - 30
+
+itime:339 - 1.2355811595917 - 0.0092470645904541
+
+dbtime:3385 - 0.57024216651917 - 0.0043237209320068 - 30
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9413-2XS - Image attributes processor v1.0.33a - HS9413 - BREEDERS CROWN LOGO THERMAL.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9413-2XS - Image attributes processor v1.0.33a - HS9413_-_BREEDERS_CROWN_LOGO_THERMAL_2_X400.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9413-2XS - Image attributes processor v1.0.33a - HS9413_-_BREEDERS_CROWN_LOGO_THERMAL_3_X150.JPG cannot be found in images path
+
+itime:342 - 1.2441041469574 - 0.008446216583252
+
+dbtime:3415 - 0.57396054267883 - 0.003718376159668 - 30
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9413-XS - Image attributes processor v1.0.33a - HS9413 - BREEDERS CROWN LOGO THERMAL.JPG cannot be found in images path
+
+itime:345 - 1.2522120475769 - 0.0080409049987793
+
+dbtime:3445 - 0.57755827903748 - 0.0035977363586426 - 30
+
+itime:348 - 1.2603559494019 - 0.008080005645752
+
+dbtime:3475 - 0.5811333656311 - 0.0035750865936279 - 30
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9414-2XS - Image attributes processor v1.0.33a - HS9414 - BREEDERS CROWN LOGO RAGLAN.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9414-2XS - Image attributes processor v1.0.33a - HS9414_-_BREEDERS_CROWN_LOGO_RAGLAN_1_X400.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9414-2XS - Image attributes processor v1.0.33a - HS9414_-_BREEDERS_CROWN_LOGO_RAGLAN_2_X150.JPG cannot be found in images path
+
+itime:351 - 1.268746137619 - 0.0083210468292236
+
+dbtime:3505 - 0.58459877967834 - 0.0034654140472412 - 30
+
+itime:354 - 1.2770969867706 - 0.0082828998565674
+
+dbtime:3535 - 0.58814764022827 - 0.0035488605499268 - 30
+
+itime:357 - 1.2854011058807 - 0.0082330703735352
+
+dbtime:3565 - 0.59159803390503 - 0.0034503936767578 - 30
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9415-CRIMSON-2XS - Image attributes processor v1.0.33a - HBTS18017_03.JPG cannot be found in images path
+
+itime:360 - 1.2976989746094 - 0.0122230052948
+
+dbtime:3595 - 0.59720540046692 - 0.0056073665618896 - 30
+
+itime:363 - 1.3129911422729 - 0.015174150466919
+
+dbtime:3625 - 0.60446000099182 - 0.0072546005249023 - 30
+
+itime:366 - 1.3244690895081 - 0.011345148086548
+
+dbtime:3655 - 0.60947322845459 - 0.0050132274627686 - 30
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9415-PEPPER-2XS - Image attributes processor v1.0.33a - HBTS18017_04.JPG cannot be found in images path
+
+itime:369 - 1.3334920406342 - 0.0089330673217773
+
+dbtime:3685 - 0.61317086219788 - 0.0036976337432861 - 30
+
+itime:372 - 1.3420400619507 - 0.0084829330444336
+
+dbtime:3715 - 0.61680102348328 - 0.0036301612854004 - 30
+
+itime:375 - 1.3505201339722 - 0.0083730220794678
+
+dbtime:3745 - 0.62015748023987 - 0.0033564567565918 - 30
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9416-CRIMSON-2XS - Image attributes processor v1.0.33a - HBTS18017_05.JPG cannot be found in images path
+
+itime:378 - 1.3593490123749 - 0.0087540149688721
+
+dbtime:3775 - 0.62367272377014 - 0.0035152435302734 - 30
+
+itime:381 - 1.3719410896301 - 0.012526988983154
+
+dbtime:3805 - 0.62706995010376 - 0.0033972263336182 - 30
+
+itime:384 - 1.3802170753479 - 0.0081989765167236
+
+dbtime:3835 - 0.63038206100464 - 0.0033121109008789 - 30
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9416-PEPPER-2XS - Image attributes processor v1.0.33a - HBTS18017_08.JPG cannot be found in images path
+
+itime:387 - 1.3882920742035 - 0.0080060958862305
+
+dbtime:3865 - 0.63373374938965 - 0.0033516883850098 - 30
+
+itime:390 - 1.3971841335297 - 0.0088341236114502
+
+dbtime:3895 - 0.63801527023315 - 0.0042815208435059 - 30
+
+itime:393 - 1.4097480773926 - 0.012480020523071
+
+dbtime:3925 - 0.6441912651062 - 0.0061759948730469 - 30
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9000 - Image attributes processor v1.0.33a - BC-NIKE-POLO-BLACK-FULL.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9000 - Image attributes processor v1.0.33a - BC-NIKE-POLO-VALOR-BLUE-FULL.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9000 - Image attributes processor v1.0.33a - BC-NIKE-POLO-BLACK-SMALL.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9000 - Image attributes processor v1.0.33a - BC-NIKE-POLO-BLACK-THUMB.JPG cannot be found in images path
+
+itime:396 - 1.4278120994568 - 0.017930030822754
+
+dbtime:3964 - 0.65326380729675 - 0.0090725421905518 - 39
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9001 - Image attributes processor v1.0.33a - BC-PM-PERTH-MIDNIGHT-FULL.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9001 - Image attributes processor v1.0.33a - BC-PM-PERTH-BLACK-FULL.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9001 - Image attributes processor v1.0.33a - BC-PM-PERTH-MIDNIGHT-THUMB.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9002 - Image attributes processor v1.0.33a - HBC-PM-POLO-FULL.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9002 - Image attributes processor v1.0.33a - HBC-PM-POLO-SMALL.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9002 - Image attributes processor v1.0.33a - HBC-PM-POLO-THUMB.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9003 - Image attributes processor v1.0.33a - HBC-NIKE-POLO-RED-FULL.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9003 - Image attributes processor v1.0.33a - HBC-NIKE-POLO-RED-THUMB.JPG cannot be found in images path
+
+itime:399 - 1.4537501335144 - 0.025844097137451
+
+dbtime:4019 - 0.66870713233948 - 0.015443325042725 - 55
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9004 - Image attributes processor v1.0.33a - HBC-PERTH-MIDNIGHT-FULL.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9004 - Image attributes processor v1.0.33a - HBC-PERTH-BLACK-FULL.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9004 - Image attributes processor v1.0.33a - HBC-PERTH-MIDNIGHT-SMALL.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9004 - Image attributes processor v1.0.33a - HBC-PERTH-MIDNIGHT-THUMB.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9005 - Image attributes processor v1.0.33a - HS9005 - PROPERTY OF FLEECE - BLACK.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9006 - Image attributes processor v1.0.33a - GDH400.JPG cannot be found in images path
+
+itime:402 - 1.4738020896912 - 0.019978046417236
+
+dbtime:4072 - 0.6812264919281 - 0.012519359588623 - 53
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9008 - Image attributes processor v1.0.33a - HBTS18017_01.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9008 - Image attributes processor v1.0.33a - HBTS18017_02.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9200 - Image attributes processor v1.0.33a - BC-ADAMS-HAT-BABY-BLUE-FULL.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9200 - Image attributes processor v1.0.33a - BC-ADAMS-HAT-CHARCOAL-FULL.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9200 - Image attributes processor v1.0.33a - BC-ADAMS-HAT-CORAL-FULL.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9200 - Image attributes processor v1.0.33a - BC-ADAMS-HAT-BABY-BLUE-THUMB.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9201 - Image attributes processor v1.0.33a - BC-NIKE-HAT-WHITE-FULL.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9201 - Image attributes processor v1.0.33a - BC-NIKE-HAT-VALOR-BLUE-FULL.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9201 - Image attributes processor v1.0.33a - BC-NIKE-HAT-WHITE-THUMB.JPG cannot be found in images path
+
+itime:405 - 1.4901621341705 - 0.016286134719849
+
+dbtime:4125 - 0.69080972671509 - 0.0095832347869873 - 53
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9400 - Image attributes processor v1.0.33a - HAMBO-BAR-GREY.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9400 - Image attributes processor v1.0.33a - HAMBO TEXT TEAL.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9400 - Image attributes processor v1.0.33a - HAMBO-RASP-BAR.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9400 - Image attributes processor v1.0.33a - HAMBO_BAR_LOGO_RED_X1300.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9400 - Image attributes processor v1.0.33a - HS_BAR_LOGO_TURQOUISE_X1300.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9401 - Image attributes processor v1.0.33a - HAMBO-BADGE-RED-REV_X1300.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9401 - Image attributes processor v1.0.33a - HAMBO-BADGE-FRONT-RED.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9401 - Image attributes processor v1.0.33a - HAMBO-BADGE-RED-REV_1_X400.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9401 - Image attributes processor v1.0.33a - HAMBO-BADGE-RED-REV_2_X150.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9402 - Image attributes processor v1.0.33a - HAMBO ARCH RASP.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9402 - Image attributes processor v1.0.33a - HAMBO-ARCH-RAS.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9402 - Image attributes processor v1.0.33a - COMFORT COLORS 1717 - HAMBO ARCH BLUE.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9402 - Image attributes processor v1.0.33a - HAMBO-ARCH-BLK.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9402 - Image attributes processor v1.0.33a - 1717 - TRUE NAVY - HAMBO ARCH.JPG cannot be found in images path
+
+itime:408 - 1.5166699886322 - 0.026416063308716
+
+dbtime:4180 - 0.70746541023254 - 0.016655683517456 - 55
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9403 - Image attributes processor v1.0.33a - HAMBO_CIRCLE_GREEN_BACK_X1300.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9403 - Image attributes processor v1.0.33a - HAMBO_CIRCLE_BLUE_BACK_2_X1300.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9404 - Image attributes processor v1.0.33a - HS-TEA-TOWEL.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9408 - Image attributes processor v1.0.33a - HBTS18006 TEE SPREAD 2-07.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9408 - Image attributes processor v1.0.33a - HBTS18006_TEE_SPREAD-24_1_X400.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9408 - Image attributes processor v1.0.33a - HBTS18006_TEE_SPREAD-24_2_X150.JPG cannot be found in images path
+
+itime:411 - 1.5334479808807 - 0.016708850860596
+
+dbtime:4235 - 0.7174654006958 - 0.0099999904632568 - 55
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9409 - Image attributes processor v1.0.33a - HBTS18006-TEE-SPREAD_04-2_X1300.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9409 - Image attributes processor v1.0.33a - HBTS18006-TEE-SPREAD_04-1_X1300.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9409 - Image attributes processor v1.0.33a - HBTS18006-TEE-SPREAD_04-4_X1300.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9409 - Image attributes processor v1.0.33a - HBTS18006 TEE SPREAD 2-10.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9409 - Image attributes processor v1.0.33a - HBTS18006-TEE-SPREAD_04-3_X1300.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9409 - Image attributes processor v1.0.33a - HBTS18006 TEE SPREAD 2-09.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9409 - Image attributes processor v1.0.33a - HBTS18006-TEE-SPREAD_04-2_1_X400 (1).JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9409 - Image attributes processor v1.0.33a - HBTS18006-TEE-SPREAD_04-2_2_X150.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9410 - Image attributes processor v1.0.33a - HBTS18006_TEE_SPREAD-11_X1300.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9410 - Image attributes processor v1.0.33a - HBTS18006_TEE_SPREAD-11_1_X400.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9410 - Image attributes processor v1.0.33a - HBTS18006_TEE_SPREAD-11_2_X150.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9411 - Image attributes processor v1.0.33a - HS9411 - BREEDERS CROWN LOGO TEE.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9411 - Image attributes processor v1.0.33a - HS9411_-_BREEDERS_CROWN_LOGO_TEE_1_X400.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9411 - Image attributes processor v1.0.33a - HS9411_-_BREEDERS_CROWN_LOGO_TEE_2_X150.JPG cannot be found in images path
+
+itime:414 - 1.5521080493927 - 0.018588066101074
+
+dbtime:4290 - 0.72776389122009 - 0.010298490524292 - 55
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9412 - Image attributes processor v1.0.33a - HS9412 - BREEDERS CROWN RUNNING HORSES TEE.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9412 - Image attributes processor v1.0.33a - HS9412_-_BREEDERS_CROWN_RUNNING_HORSES_TEE_1_X400.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9412 - Image attributes processor v1.0.33a - HS9412_-_BREEDERS_CROWN_RUNNING_HORSES_TEE_2_X150.JPG cannot be found in images path
+
+itime:417 - 1.568146944046 - 0.015947818756104
+
+dbtime:4341 - 0.73711776733398 - 0.0093538761138916 - 51
+
+itime:418 - 1.5811049938202 - 0.012856960296631
+
+dbtime:4380 - 0.74521160125732 - 0.0080938339233398 - 39
+
+info:Skus imported OK:418/418
+
+plugin;CategoryImporter;info:On the fly category creator/importer v0.2.5 - Updating Category children count....
+
+end:Import Ended
+
+
+
+------------------------
+
+ (File: PRODUCT_HS_20190109-00391.csv)
+2019-01-22T19:10:13+00:00: plugin;ImageAttributeItemProcessor;warning:SKU RR2015-BLACK - Image attributes processor v1.0.33a - REBECCARAY_BAG_GRAY_BACK_FULL.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU RR2015-PURPLE - Image attributes processor v1.0.33a - RR2003 MRY TOTE RABBIT BRN.JPG cannot be found in images path
+
+
+
+------------------------
+
+title:MAGMI by dweeves - version:0.7.22
+
+startup:Running Magmi Product Import Engine v1.9.1 by dweeves
+
+startup:Import Profile:NGCImportNew
+
+startup:Import Mode:create
+
+step:step:0.5%
+
+startup:Attributeset update is enabled.
+
+plugin;Magmi_CSVDataSource;pluginhello:CSV Datasource-1.3.1-Dweeves- 
+
+plugin;Magmi_OptimizerPlugin;pluginhello:Magmi Optimizer-1.0.5-Dweeves-http://wiki.magmi.org/index.php?title=Magmi_Optimizer 
+
+plugin;CategoryImporter;pluginhello:On the fly category creator/importer-0.2.5-Dweeves-http://wiki.magmi.org/index.php?title=On_the_fly_category_creator/importer 
+
+plugin;ImageAttributeItemProcessor;pluginhello:Image attributes processor-1.0.33a-Dweeves, Tommy Goode-http://wiki.magmi.org/index.php?title=Image_attributes_processor 
+
+plugin;ColumnMappingItemProcessor;pluginhello:Column mapper-0.0.3b-Dweeves-http://wiki.magmi.org/index.php?title=Column_mapper 
+
+plugin;DefaultValuesItemProcessor;pluginhello:Default Values setter-0.0.5-Dweeves-http://wiki.magmi.org/index.php?title=Default_Values_setter 
+
+plugin;ValueReplacerItemProcessor;pluginhello:Value Replacer-0.0.8a-Dweeves-http://wiki.magmi.org/index.php?title=Value_Replacer 
+
+plugin;Magmi_ConfigurableItemProcessor;pluginhello:Configurable Item processor-1.3.7a-Dweeves-http://wiki.magmi.org/index.php?title=Configurable_Item_processor 
+
+plugin;Magmi_DefaultAttributeItemProcessor;pluginhello:Standard Attribute Import-1.1-Dweeves- 
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Optimizing magmi
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Adding index MAGMI_EAOV_OPTIMIZATION_IDX on eav_attribute_option_value
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Already optmized!
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Adding index MAGMI_CPEM_OPTIMIZATION_IDX on catalog_product_entity_media_gallery
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Already optmized!
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Adding index MAGMI_CCEV_OPTIMIZATION_IDX on catalog_category_entity_varchar
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Already optmized!
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Adding index MAGMI_EA_CODE_OPTIMIZATION_IDX on eav_attribute
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Already optmized!
+
+startup:Performing Datasource Lookup...
+
+lookup:4:0.00014185905456543
+
+startup:Found 4 records, took 0.00014185905456543 sec
+
+info:Initialized attribute_set_infos!
+
+columns:31
+
+plugin;DefaultValuesItemProcessor;startup:Default Values setter v0.0.5 - Adding Columns options_container
+
+plugin;Magmi_DefaultAttributeItemProcessor;startup:Standard Attribute Import v1.1 - Newly created items will have default values for columns:page_layout
+
+startup:Ajusted processed columns:34
+
+itime:1 - 4.3869018554688E-5 - 4.3869018554688E-5
+
+dbtime:0 - 0 - 0 - 0
+
+plugin;ImageAttributeItemProcessor;warning:SKU RR2015-BLACK - Image attributes processor v1.0.33a - REBECCARAY_BAG_GRAY_BACK_FULL.JPG cannot be found in images path
+
+itime:2 - 0.095311880111694 - 0.095207929611206
+
+dbtime:20 - 0.08917498588562 - 0.08917498588562 - 20
+
+plugin;ImageAttributeItemProcessor;warning:SKU RR2015-PURPLE - Image attributes processor v1.0.33a - RR2003 MRY TOTE RABBIT BRN.JPG cannot be found in images path
+
+itime:3 - 0.10778379440308 - 0.012365818023682
+
+dbtime:36 - 0.097273588180542 - 0.0080986022949219 - 16
+
+itime:4 - 0.11399579048157 - 0.0060799121856689
+
+dbtime:49 - 0.10060858726501 - 0.0033349990844727 - 13
+
+itime:4 - 0.13536787033081 - 0.02123498916626
+
+dbtime:71 - 0.118412733078 - 0.017804145812988 - 22
+
+info:Skus imported OK:4/4
+
+plugin;CategoryImporter;info:On the fly category creator/importer v0.2.5 - Updating Category children count....
+
+end:Import Ended
+
+
+
+------------------------
+
+ (File: PRODUCT_HS_20190122-00005.csv)
+2019-01-23T06:10:30+00:00: plugin;ImageAttributeItemProcessor;warning:SKU RR2015-BLACK - Image attributes processor v1.0.33a - REBECCARAY_BAG_GRAY_BACK_FULL.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU RR2015-PURPLE - Image attributes processor v1.0.33a - RR2003 MRY TOTE RABBIT BRN.JPG cannot be found in images path
+
+
+
+------------------------
+
+title:MAGMI by dweeves - version:0.7.22
+
+startup:Running Magmi Product Import Engine v1.9.1 by dweeves
+
+startup:Import Profile:NGCImportNew
+
+startup:Import Mode:create
+
+step:step:0.5%
+
+startup:Attributeset update is enabled.
+
+plugin;Magmi_CSVDataSource;pluginhello:CSV Datasource-1.3.1-Dweeves- 
+
+plugin;Magmi_OptimizerPlugin;pluginhello:Magmi Optimizer-1.0.5-Dweeves-http://wiki.magmi.org/index.php?title=Magmi_Optimizer 
+
+plugin;CategoryImporter;pluginhello:On the fly category creator/importer-0.2.5-Dweeves-http://wiki.magmi.org/index.php?title=On_the_fly_category_creator/importer 
+
+plugin;ImageAttributeItemProcessor;pluginhello:Image attributes processor-1.0.33a-Dweeves, Tommy Goode-http://wiki.magmi.org/index.php?title=Image_attributes_processor 
+
+plugin;ColumnMappingItemProcessor;pluginhello:Column mapper-0.0.3b-Dweeves-http://wiki.magmi.org/index.php?title=Column_mapper 
+
+plugin;DefaultValuesItemProcessor;pluginhello:Default Values setter-0.0.5-Dweeves-http://wiki.magmi.org/index.php?title=Default_Values_setter 
+
+plugin;ValueReplacerItemProcessor;pluginhello:Value Replacer-0.0.8a-Dweeves-http://wiki.magmi.org/index.php?title=Value_Replacer 
+
+plugin;Magmi_ConfigurableItemProcessor;pluginhello:Configurable Item processor-1.3.7a-Dweeves-http://wiki.magmi.org/index.php?title=Configurable_Item_processor 
+
+plugin;Magmi_DefaultAttributeItemProcessor;pluginhello:Standard Attribute Import-1.1-Dweeves- 
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Optimizing magmi
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Adding index MAGMI_EAOV_OPTIMIZATION_IDX on eav_attribute_option_value
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Already optmized!
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Adding index MAGMI_CPEM_OPTIMIZATION_IDX on catalog_product_entity_media_gallery
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Already optmized!
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Adding index MAGMI_CCEV_OPTIMIZATION_IDX on catalog_category_entity_varchar
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Already optmized!
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Adding index MAGMI_EA_CODE_OPTIMIZATION_IDX on eav_attribute
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Already optmized!
+
+startup:Performing Datasource Lookup...
+
+lookup:4:0.00011587142944336
+
+startup:Found 4 records, took 0.00011587142944336 sec
+
+info:Initialized attribute_set_infos!
+
+columns:31
+
+plugin;DefaultValuesItemProcessor;startup:Default Values setter v0.0.5 - Adding Columns options_container
+
+plugin;Magmi_DefaultAttributeItemProcessor;startup:Standard Attribute Import v1.1 - Newly created items will have default values for columns:page_layout
+
+startup:Ajusted processed columns:34
+
+itime:1 - 4.1007995605469E-5 - 4.1007995605469E-5
+
+dbtime:0 - 0 - 0 - 0
+
+plugin;ImageAttributeItemProcessor;warning:SKU RR2015-BLACK - Image attributes processor v1.0.33a - REBECCARAY_BAG_GRAY_BACK_FULL.JPG cannot be found in images path
+
+itime:2 - 0.021071195602417 - 0.020976066589355
+
+dbtime:15 - 0.017509460449219 - 0.017509460449219 - 15
+
+plugin;ImageAttributeItemProcessor;warning:SKU RR2015-PURPLE - Image attributes processor v1.0.33a - RR2003 MRY TOTE RABBIT BRN.JPG cannot be found in images path
+
+itime:3 - 0.024685144424438 - 0.0035450458526611
+
+dbtime:25 - 0.018785238265991 - 0.0012757778167725 - 10
+
+itime:4 - 0.027397155761719 - 0.0026500225067139
+
+dbtime:35 - 0.019964933395386 - 0.0011796951293945 - 10
+
+itime:4 - 0.035147190093994 - 0.0076901912689209
+
+dbtime:53 - 0.025934219360352 - 0.0059692859649658 - 18
+
+info:Skus imported OK:4/4
+
+plugin;CategoryImporter;info:On the fly category creator/importer v0.2.5 - Updating Category children count....
+
+end:Import Ended
+
+
+
+------------------------
+
+ (File: PRODUCT_HS_20190123-00000.csv)
+2019-01-23T07:10:28+00:00: warning:No Records returned by datasource
+
+
+
+------------------------
+
+title:MAGMI by dweeves - version:0.7.22
+
+startup:Running Magmi Product Import Engine v1.9.1 by dweeves
+
+startup:Import Profile:NGCImportNew
+
+startup:Import Mode:create
+
+step:step:0.5%
+
+startup:Attributeset update is enabled.
+
+plugin;Magmi_CSVDataSource;pluginhello:CSV Datasource-1.3.1-Dweeves- 
+
+plugin;Magmi_OptimizerPlugin;pluginhello:Magmi Optimizer-1.0.5-Dweeves-http://wiki.magmi.org/index.php?title=Magmi_Optimizer 
+
+plugin;CategoryImporter;pluginhello:On the fly category creator/importer-0.2.5-Dweeves-http://wiki.magmi.org/index.php?title=On_the_fly_category_creator/importer 
+
+plugin;ImageAttributeItemProcessor;pluginhello:Image attributes processor-1.0.33a-Dweeves, Tommy Goode-http://wiki.magmi.org/index.php?title=Image_attributes_processor 
+
+plugin;ColumnMappingItemProcessor;pluginhello:Column mapper-0.0.3b-Dweeves-http://wiki.magmi.org/index.php?title=Column_mapper 
+
+plugin;DefaultValuesItemProcessor;pluginhello:Default Values setter-0.0.5-Dweeves-http://wiki.magmi.org/index.php?title=Default_Values_setter 
+
+plugin;ValueReplacerItemProcessor;pluginhello:Value Replacer-0.0.8a-Dweeves-http://wiki.magmi.org/index.php?title=Value_Replacer 
+
+plugin;Magmi_ConfigurableItemProcessor;pluginhello:Configurable Item processor-1.3.7a-Dweeves-http://wiki.magmi.org/index.php?title=Configurable_Item_processor 
+
+plugin;Magmi_DefaultAttributeItemProcessor;pluginhello:Standard Attribute Import-1.1-Dweeves- 
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Optimizing magmi
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Adding index MAGMI_EAOV_OPTIMIZATION_IDX on eav_attribute_option_value
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Already optmized!
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Adding index MAGMI_CPEM_OPTIMIZATION_IDX on catalog_product_entity_media_gallery
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Already optmized!
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Adding index MAGMI_CCEV_OPTIMIZATION_IDX on catalog_category_entity_varchar
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Already optmized!
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Adding index MAGMI_EA_CODE_OPTIMIZATION_IDX on eav_attribute
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Already optmized!
+
+startup:Performing Datasource Lookup...
+
+lookup:-1:5.6982040405273E-5
+
+startup:Found -1 records, took 5.6982040405273E-5 sec
+
+warning:No Records returned by datasource
+
+plugin;CategoryImporter;info:On the fly category creator/importer v0.2.5 - Updating Category children count....
+
+end:Import Ended
+
+
+
+------------------------
+
+ (File: )
+2019-02-06T15:10:07+00:00: plugin;ImageAttributeItemProcessor;warning:SKU HS9400 - Image attributes processor v1.0.33a - HS_BAR_LOGO_TURQOUISE_X1300.JPG cannot be found in images path
+
+
+
+------------------------
+
+title:MAGMI by dweeves - version:0.7.22
+
+startup:Running Magmi Product Import Engine v1.9.1 by dweeves
+
+startup:Import Profile:NGCImportNew
+
+startup:Import Mode:create
+
+step:step:0.5%
+
+startup:Attributeset update is enabled.
+
+plugin;Magmi_CSVDataSource;pluginhello:CSV Datasource-1.3.1-Dweeves- 
+
+plugin;Magmi_OptimizerPlugin;pluginhello:Magmi Optimizer-1.0.5-Dweeves-http://wiki.magmi.org/index.php?title=Magmi_Optimizer 
+
+plugin;CategoryImporter;pluginhello:On the fly category creator/importer-0.2.5-Dweeves-http://wiki.magmi.org/index.php?title=On_the_fly_category_creator/importer 
+
+plugin;ImageAttributeItemProcessor;pluginhello:Image attributes processor-1.0.33a-Dweeves, Tommy Goode-http://wiki.magmi.org/index.php?title=Image_attributes_processor 
+
+plugin;ColumnMappingItemProcessor;pluginhello:Column mapper-0.0.3b-Dweeves-http://wiki.magmi.org/index.php?title=Column_mapper 
+
+plugin;DefaultValuesItemProcessor;pluginhello:Default Values setter-0.0.5-Dweeves-http://wiki.magmi.org/index.php?title=Default_Values_setter 
+
+plugin;ValueReplacerItemProcessor;pluginhello:Value Replacer-0.0.8a-Dweeves-http://wiki.magmi.org/index.php?title=Value_Replacer 
+
+plugin;Magmi_ConfigurableItemProcessor;pluginhello:Configurable Item processor-1.3.7a-Dweeves-http://wiki.magmi.org/index.php?title=Configurable_Item_processor 
+
+plugin;Magmi_DefaultAttributeItemProcessor;pluginhello:Standard Attribute Import-1.1-Dweeves- 
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Optimizing magmi
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Adding index MAGMI_EAOV_OPTIMIZATION_IDX on eav_attribute_option_value
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Already optmized!
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Adding index MAGMI_CPEM_OPTIMIZATION_IDX on catalog_product_entity_media_gallery
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Already optmized!
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Adding index MAGMI_CCEV_OPTIMIZATION_IDX on catalog_category_entity_varchar
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Already optmized!
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Adding index MAGMI_EA_CODE_OPTIMIZATION_IDX on eav_attribute
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Already optmized!
+
+startup:Performing Datasource Lookup...
+
+lookup:21:0.00046396255493164
+
+startup:Found 21 records, took 0.00046396255493164 sec
+
+info:Initialized attribute_set_infos!
+
+columns:31
+
+plugin;DefaultValuesItemProcessor;startup:Default Values setter v0.0.5 - Adding Columns options_container
+
+plugin;Magmi_DefaultAttributeItemProcessor;startup:Standard Attribute Import v1.1 - Newly created items will have default values for columns:page_layout
+
+startup:Ajusted processed columns:34
+
+itime:1 - 4.6014785766602E-5 - 4.6014785766602E-5
+
+dbtime:0 - 0 - 0 - 0
+
+itime:2 - 0.05858302116394 - 0.058481931686401
+
+dbtime:27 - 0.049603462219238 - 0.049603462219238 - 27
+
+itime:3 - 0.074066877365112 - 0.015386819839478
+
+dbtime:49 - 0.057291746139526 - 0.0076882839202881 - 22
+
+itime:4 - 0.086503028869629 - 0.012339115142822
+
+dbtime:71 - 0.062139272689819 - 0.004847526550293 - 22
+
+itime:5 - 0.10136795043945 - 0.014786958694458
+
+dbtime:93 - 0.070132493972778 - 0.007993221282959 - 22
+
+itime:6 - 0.11489701271057 - 0.013401031494141
+
+dbtime:115 - 0.075487613677979 - 0.0053551197052002 - 22
+
+itime:7 - 0.14253497123718 - 0.027550935745239
+
+dbtime:137 - 0.080344438552856 - 0.0048568248748779 - 22
+
+itime:8 - 0.16558003425598 - 0.022938966751099
+
+dbtime:159 - 0.084873199462891 - 0.0045287609100342 - 22
+
+itime:9 - 0.1881160736084 - 0.022430181503296
+
+dbtime:181 - 0.089775085449219 - 0.0049018859863281 - 22
+
+itime:10 - 0.21233296394348 - 0.024103879928589
+
+dbtime:203 - 0.095278739929199 - 0.0055036544799805 - 22
+
+itime:11 - 0.24191188812256 - 0.029492855072021
+
+dbtime:225 - 0.10335779190063 - 0.0080790519714355 - 22
+
+itime:12 - 0.26680493354797 - 0.024770975112915
+
+dbtime:247 - 0.10939311981201 - 0.006035327911377 - 22
+
+itime:13 - 0.28336811065674 - 0.016450166702271
+
+dbtime:269 - 0.11584997177124 - 0.0064568519592285 - 22
+
+itime:14 - 0.30380296707153 - 0.020331859588623
+
+dbtime:291 - 0.12192964553833 - 0.0060796737670898 - 22
+
+itime:15 - 0.324294090271 - 0.020395994186401
+
+dbtime:313 - 0.12735533714294 - 0.0054256916046143 - 22
+
+itime:16 - 0.34523606300354 - 0.02082896232605
+
+dbtime:335 - 0.13407278060913 - 0.0067174434661865 - 22
+
+itime:17 - 0.36035990715027 - 0.015026807785034
+
+dbtime:357 - 0.13870477676392 - 0.0046319961547852 - 22
+
+itime:18 - 0.37312889099121 - 0.012681007385254
+
+dbtime:379 - 0.14269590377808 - 0.0039911270141602 - 22
+
+itime:19 - 0.39048600196838 - 0.017251014709473
+
+dbtime:401 - 0.14873957633972 - 0.0060436725616455 - 22
+
+itime:20 - 0.40904498100281 - 0.018439054489136
+
+dbtime:423 - 0.15466475486755 - 0.005925178527832 - 22
+
+itime:21 - 0.4261360168457 - 0.016999959945679
+
+dbtime:445 - 0.15934491157532 - 0.0046801567077637 - 22
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9400 - Image attributes processor v1.0.33a - HS_BAR_LOGO_TURQOUISE_X1300.JPG cannot be found in images path
+
+itime:21 - 0.45910501480103 - 0.032887935638428
+
+dbtime:493 - 0.1765730381012 - 0.017228126525879 - 48
+
+info:Skus imported OK:21/21
+
+plugin;CategoryImporter;info:On the fly category creator/importer v0.2.5 - Updating Category children count....
+
+end:Import Ended
+
+
+
+------------------------
+
+ (File: PRODUCT_HS_20190206-00383.csv)
+2019-03-26T13:10:27+00:00: plugin;ImageAttributeItemProcessor;warning:SKU HS9403-BJWHITE-2XS - Image attributes processor v1.0.33a - HAMBO_CIRCLE_BLUE_BACK_1_X400.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9403-BJWHITE-2XS - Image attributes processor v1.0.33a - HAMBO_CIRCLE_BLUE_BACK_X150.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9403-PEPPER-2XS - Image attributes processor v1.0.33a - HAMBO-CIRCLE-PEPPER-BACK.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9403 - Image attributes processor v1.0.33a - HS POCKET TEE - BACK - CRIMSON.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9403 - Image attributes processor v1.0.33a - HAMBO CIRCLE GREEN BACK.JPG cannot be found in images path
+
+
+
+------------------------
+
+title:MAGMI by dweeves - version:0.7.22
+
+startup:Running Magmi Product Import Engine v1.9.1 by dweeves
+
+startup:Import Profile:NGCImportNew
+
+startup:Import Mode:create
+
+step:step:0.5%
+
+startup:Attributeset update is enabled.
+
+plugin;Magmi_CSVDataSource;pluginhello:CSV Datasource-1.3.1-Dweeves- 
+
+plugin;Magmi_OptimizerPlugin;pluginhello:Magmi Optimizer-1.0.5-Dweeves-http://wiki.magmi.org/index.php?title=Magmi_Optimizer 
+
+plugin;CategoryImporter;pluginhello:On the fly category creator/importer-0.2.5-Dweeves-http://wiki.magmi.org/index.php?title=On_the_fly_category_creator/importer 
+
+plugin;ImageAttributeItemProcessor;pluginhello:Image attributes processor-1.0.33a-Dweeves, Tommy Goode-http://wiki.magmi.org/index.php?title=Image_attributes_processor 
+
+plugin;ColumnMappingItemProcessor;pluginhello:Column mapper-0.0.3b-Dweeves-http://wiki.magmi.org/index.php?title=Column_mapper 
+
+plugin;DefaultValuesItemProcessor;pluginhello:Default Values setter-0.0.5-Dweeves-http://wiki.magmi.org/index.php?title=Default_Values_setter 
+
+plugin;ValueReplacerItemProcessor;pluginhello:Value Replacer-0.0.8a-Dweeves-http://wiki.magmi.org/index.php?title=Value_Replacer 
+
+plugin;Magmi_ConfigurableItemProcessor;pluginhello:Configurable Item processor-1.3.7a-Dweeves-http://wiki.magmi.org/index.php?title=Configurable_Item_processor 
+
+plugin;Magmi_DefaultAttributeItemProcessor;pluginhello:Standard Attribute Import-1.1-Dweeves- 
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Optimizing magmi
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Adding index MAGMI_EAOV_OPTIMIZATION_IDX on eav_attribute_option_value
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Already optmized!
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Adding index MAGMI_CPEM_OPTIMIZATION_IDX on catalog_product_entity_media_gallery
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Already optmized!
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Adding index MAGMI_CCEV_OPTIMIZATION_IDX on catalog_category_entity_varchar
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Already optmized!
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Adding index MAGMI_EA_CODE_OPTIMIZATION_IDX on eav_attribute
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Already optmized!
+
+startup:Performing Datasource Lookup...
+
+lookup:20:0.00087594985961914
+
+startup:Found 20 records, took 0.00087594985961914 sec
+
+info:Initialized attribute_set_infos!
+
+columns:31
+
+plugin;DefaultValuesItemProcessor;startup:Default Values setter v0.0.5 - Adding Columns options_container
+
+plugin;Magmi_DefaultAttributeItemProcessor;startup:Standard Attribute Import v1.1 - Newly created items will have default values for columns:page_layout
+
+startup:Ajusted processed columns:34
+
+itime:1 - 6.3896179199219E-5 - 6.3896179199219E-5
+
+dbtime:0 - 0 - 0 - 0
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9403-BJWHITE-2XS - Image attributes processor v1.0.33a - HAMBO_CIRCLE_BLUE_BACK_1_X400.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9403-BJWHITE-2XS - Image attributes processor v1.0.33a - HAMBO_CIRCLE_BLUE_BACK_X150.JPG cannot be found in images path
+
+itime:2 - 0.021607875823975 - 0.02147102355957
+
+dbtime:15 - 0.016655445098877 - 0.016655445098877 - 15
+
+itime:3 - 0.032641887664795 - 0.010931968688965
+
+dbtime:25 - 0.025333881378174 - 0.0086784362792969 - 10
+
+itime:4 - 0.039609909057617 - 0.006850004196167
+
+dbtime:35 - 0.027388095855713 - 0.0020542144775391 - 10
+
+itime:5 - 0.046483993530273 - 0.0067551136016846
+
+dbtime:45 - 0.029210567474365 - 0.0018224716186523 - 10
+
+itime:6 - 0.050820827484131 - 0.0042200088500977
+
+dbtime:55 - 0.031098365783691 - 0.0018877983093262 - 10
+
+itime:7 - 0.058557987213135 - 0.007634162902832
+
+dbtime:65 - 0.033127069473267 - 0.0020287036895752 - 10
+
+itime:8 - 0.06342887878418 - 0.0047600269317627
+
+dbtime:75 - 0.035727739334106 - 0.0026006698608398 - 10
+
+itime:9 - 0.072348833084106 - 0.008814811706543
+
+dbtime:85 - 0.038927316665649 - 0.003199577331543 - 10
+
+itime:10 - 0.084378004074097 - 0.01158618927002
+
+dbtime:95 - 0.042819738388062 - 0.0038924217224121 - 10
+
+itime:11 - 0.12169003486633 - 0.037093162536621
+
+dbtime:123 - 0.054376363754272 - 0.011556625366211 - 28
+
+itime:12 - 0.14129185676575 - 0.019484996795654
+
+dbtime:148 - 0.060231924057007 - 0.0058555603027344 - 25
+
+itime:13 - 0.16112589836121 - 0.019718885421753
+
+dbtime:173 - 0.065766096115112 - 0.0055341720581055 - 25
+
+itime:14 - 0.18914604187012 - 0.027906179428101
+
+dbtime:198 - 0.074928045272827 - 0.0091619491577148 - 25
+
+itime:15 - 0.20092391967773 - 0.011662006378174
+
+dbtime:215 - 0.080124378204346 - 0.0051963329315186 - 17
+
+itime:16 - 0.21550488471985 - 0.014472961425781
+
+dbtime:240 - 0.084712028503418 - 0.0045876502990723 - 25
+
+itime:17 - 0.22789096832275 - 0.012299060821533
+
+dbtime:265 - 0.088815927505493 - 0.0041038990020752 - 25
+
+itime:18 - 0.24899792671204 - 0.021014928817749
+
+dbtime:290 - 0.095102787017822 - 0.0062868595123291 - 25
+
+itime:19 - 0.26541900634766 - 0.01625919342041
+
+dbtime:315 - 0.099472045898438 - 0.0043692588806152 - 25
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9403-PEPPER-2XS - Image attributes processor v1.0.33a - HAMBO-CIRCLE-PEPPER-BACK.JPG cannot be found in images path
+
+itime:20 - 0.27536201477051 - 0.0098230838775635
+
+dbtime:325 - 0.10274815559387 - 0.0032761096954346 - 10
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9403 - Image attributes processor v1.0.33a - HS POCKET TEE - BACK - CRIMSON.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9403 - Image attributes processor v1.0.33a - HAMBO CIRCLE GREEN BACK.JPG cannot be found in images path
+
+itime:20 - 0.34660983085632 - 0.071098804473877
+
+dbtime:361 - 0.13825917243958 - 0.035511016845703 - 36
+
+info:Skus imported OK:20/20
+
+plugin;CategoryImporter;info:On the fly category creator/importer v0.2.5 - Updating Category children count....
+
+end:Import Ended
+
+
+
+------------------------
+
+ (File: PRODUCT_HS_20190326-00341.csv)
+2019-05-02T13:10:04+00:00: plugin;ImageAttributeItemProcessor;warning:SKU HS9403 - Image attributes processor v1.0.33a - HS POCKET TEE - BACK - CRIMSON.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9403 - Image attributes processor v1.0.33a - HAMBO-CIRCLE-PEPPER-BACK.JPG cannot be found in images path
+
+
+
+------------------------
+
+title:MAGMI by dweeves - version:0.7.22
+
+startup:Running Magmi Product Import Engine v1.9.1 by dweeves
+
+startup:Import Profile:NGCImportNew
+
+startup:Import Mode:create
+
+step:step:0.5%
+
+startup:Attributeset update is enabled.
+
+plugin;Magmi_CSVDataSource;pluginhello:CSV Datasource-1.3.1-Dweeves- 
+
+plugin;Magmi_OptimizerPlugin;pluginhello:Magmi Optimizer-1.0.5-Dweeves-http://wiki.magmi.org/index.php?title=Magmi_Optimizer 
+
+plugin;CategoryImporter;pluginhello:On the fly category creator/importer-0.2.5-Dweeves-http://wiki.magmi.org/index.php?title=On_the_fly_category_creator/importer 
+
+plugin;ImageAttributeItemProcessor;pluginhello:Image attributes processor-1.0.33a-Dweeves, Tommy Goode-http://wiki.magmi.org/index.php?title=Image_attributes_processor 
+
+plugin;ColumnMappingItemProcessor;pluginhello:Column mapper-0.0.3b-Dweeves-http://wiki.magmi.org/index.php?title=Column_mapper 
+
+plugin;DefaultValuesItemProcessor;pluginhello:Default Values setter-0.0.5-Dweeves-http://wiki.magmi.org/index.php?title=Default_Values_setter 
+
+plugin;ValueReplacerItemProcessor;pluginhello:Value Replacer-0.0.8a-Dweeves-http://wiki.magmi.org/index.php?title=Value_Replacer 
+
+plugin;Magmi_ConfigurableItemProcessor;pluginhello:Configurable Item processor-1.3.7a-Dweeves-http://wiki.magmi.org/index.php?title=Configurable_Item_processor 
+
+plugin;Magmi_DefaultAttributeItemProcessor;pluginhello:Standard Attribute Import-1.1-Dweeves- 
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Optimizing magmi
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Adding index MAGMI_EAOV_OPTIMIZATION_IDX on eav_attribute_option_value
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Already optmized!
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Adding index MAGMI_CPEM_OPTIMIZATION_IDX on catalog_product_entity_media_gallery
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Already optmized!
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Adding index MAGMI_CCEV_OPTIMIZATION_IDX on catalog_category_entity_varchar
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Already optmized!
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Adding index MAGMI_EA_CODE_OPTIMIZATION_IDX on eav_attribute
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Already optmized!
+
+startup:Performing Datasource Lookup...
+
+lookup:11:0.00042414665222168
+
+startup:Found 11 records, took 0.00042414665222168 sec
+
+info:Initialized attribute_set_infos!
+
+columns:31
+
+plugin;DefaultValuesItemProcessor;startup:Default Values setter v0.0.5 - Adding Columns options_container
+
+plugin;Magmi_DefaultAttributeItemProcessor;startup:Standard Attribute Import v1.1 - Newly created items will have default values for columns:page_layout
+
+startup:Ajusted processed columns:34
+
+itime:1 - 9.2029571533203E-5 - 9.2029571533203E-5
+
+dbtime:0 - 0 - 0 - 0
+
+itime:2 - 0.03657603263855 - 0.036385059356689
+
+dbtime:27 - 0.009521484375 - 0.009521484375 - 27
+
+itime:3 - 0.051975965499878 - 0.015307903289795
+
+dbtime:49 - 0.014480590820312 - 0.0049591064453125 - 22
+
+itime:4 - 0.066725015640259 - 0.014657974243164
+
+dbtime:71 - 0.019861221313477 - 0.0053806304931641 - 22
+
+itime:5 - 0.092828989028931 - 0.025954961776733
+
+dbtime:93 - 0.029080867767334 - 0.0092196464538574 - 22
+
+itime:6 - 0.11308002471924 - 0.020111083984375
+
+dbtime:115 - 0.037151336669922 - 0.0080704689025879 - 22
+
+itime:7 - 0.15005993843079 - 0.03685998916626
+
+dbtime:137 - 0.04290246963501 - 0.0057511329650879 - 22
+
+itime:8 - 0.16638803482056 - 0.016206026077271
+
+dbtime:159 - 0.048540115356445 - 0.0056376457214355 - 22
+
+itime:9 - 0.18786883354187 - 0.021320819854736
+
+dbtime:181 - 0.055212497711182 - 0.0066723823547363 - 22
+
+itime:10 - 0.21760487556458 - 0.029572010040283
+
+dbtime:203 - 0.069406986236572 - 0.014194488525391 - 22
+
+itime:11 - 0.23326206207275 - 0.015559196472168
+
+dbtime:225 - 0.072498559951782 - 0.00309157371521 - 22
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9403 - Image attributes processor v1.0.33a - HS POCKET TEE - BACK - CRIMSON.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9403 - Image attributes processor v1.0.33a - HAMBO-CIRCLE-PEPPER-BACK.JPG cannot be found in images path
+
+itime:11 - 0.28632783889771 - 0.052987813949585
+
+dbtime:265 - 0.091835498809814 - 0.019336938858032 - 40
+
+info:Skus imported OK:11/11
+
+plugin;CategoryImporter;info:On the fly category creator/importer v0.2.5 - Updating Category children count....
+
+end:Import Ended
+
+
+
+------------------------
+
+ (File: PRODUCT_HS_20190502-00409.csv)
+2019-07-16T17:10:06+00:00: plugin;ImageAttributeItemProcessor;warning:SKU HS9408-NAVY-S - Image attributes processor v1.0.33a - HBTS18006_TEE_SPREAD-24_X1300.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9408 - Image attributes processor v1.0.33a - HBTS18006_TEE_SPREAD-24_1_X400.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9408 - Image attributes processor v1.0.33a - HBTS18006_TEE_SPREAD-24_2_X150.JPG cannot be found in images path
+
+
+
+------------------------
+
+title:MAGMI by dweeves - version:0.7.22
+
+startup:Running Magmi Product Import Engine v1.9.1 by dweeves
+
+startup:Import Profile:NGCImportNew
+
+startup:Import Mode:create
+
+step:step:0.5%
+
+startup:Attributeset update is enabled.
+
+plugin;Magmi_CSVDataSource;pluginhello:CSV Datasource-1.3.1-Dweeves- 
+
+plugin;Magmi_OptimizerPlugin;pluginhello:Magmi Optimizer-1.0.5-Dweeves-http://wiki.magmi.org/index.php?title=Magmi_Optimizer 
+
+plugin;CategoryImporter;pluginhello:On the fly category creator/importer-0.2.5-Dweeves-http://wiki.magmi.org/index.php?title=On_the_fly_category_creator/importer 
+
+plugin;ImageAttributeItemProcessor;pluginhello:Image attributes processor-1.0.33a-Dweeves, Tommy Goode-http://wiki.magmi.org/index.php?title=Image_attributes_processor 
+
+plugin;ColumnMappingItemProcessor;pluginhello:Column mapper-0.0.3b-Dweeves-http://wiki.magmi.org/index.php?title=Column_mapper 
+
+plugin;DefaultValuesItemProcessor;pluginhello:Default Values setter-0.0.5-Dweeves-http://wiki.magmi.org/index.php?title=Default_Values_setter 
+
+plugin;ValueReplacerItemProcessor;pluginhello:Value Replacer-0.0.8a-Dweeves-http://wiki.magmi.org/index.php?title=Value_Replacer 
+
+plugin;Magmi_ConfigurableItemProcessor;pluginhello:Configurable Item processor-1.3.7a-Dweeves-http://wiki.magmi.org/index.php?title=Configurable_Item_processor 
+
+plugin;Magmi_DefaultAttributeItemProcessor;pluginhello:Standard Attribute Import-1.1-Dweeves- 
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Optimizing magmi
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Adding index MAGMI_EAOV_OPTIMIZATION_IDX on eav_attribute_option_value
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Already optmized!
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Adding index MAGMI_CPEM_OPTIMIZATION_IDX on catalog_product_entity_media_gallery
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Already optmized!
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Adding index MAGMI_CCEV_OPTIMIZATION_IDX on catalog_category_entity_varchar
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Already optmized!
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Adding index MAGMI_EA_CODE_OPTIMIZATION_IDX on eav_attribute
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Already optmized!
+
+startup:Performing Datasource Lookup...
+
+lookup:6:0.00038504600524902
+
+startup:Found 6 records, took 0.00038504600524902 sec
+
+info:Initialized attribute_set_infos!
+
+columns:31
+
+plugin;DefaultValuesItemProcessor;startup:Default Values setter v0.0.5 - Adding Columns options_container
+
+plugin;Magmi_DefaultAttributeItemProcessor;startup:Standard Attribute Import v1.1 - Newly created items will have default values for columns:page_layout
+
+startup:Ajusted processed columns:34
+
+itime:1 - 5.3882598876953E-5 - 5.3882598876953E-5
+
+dbtime:0 - 0 - 0 - 0
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9408-NAVY-S - Image attributes processor v1.0.33a - HBTS18006_TEE_SPREAD-24_X1300.JPG cannot be found in images path
+
+itime:2 - 0.01528787612915 - 0.015163898468018
+
+dbtime:21 - 0.0068914890289307 - 0.0068914890289307 - 21
+
+itime:3 - 0.023673057556152 - 0.0082321166992188
+
+dbtime:34 - 0.012250423431396 - 0.0053589344024658 - 13
+
+itime:4 - 0.02997088432312 - 0.0061988830566406
+
+dbtime:47 - 0.015796661376953 - 0.0035462379455566 - 13
+
+itime:5 - 0.036385059356689 - 0.0063061714172363
+
+dbtime:60 - 0.019381284713745 - 0.003584623336792 - 13
+
+itime:6 - 0.042207002639771 - 0.0056710243225098
+
+dbtime:73 - 0.022430896759033 - 0.0030496120452881 - 13
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9408 - Image attributes processor v1.0.33a - HBTS18006_TEE_SPREAD-24_1_X400.JPG cannot be found in images path
+
+plugin;ImageAttributeItemProcessor;warning:SKU HS9408 - Image attributes processor v1.0.33a - HBTS18006_TEE_SPREAD-24_2_X150.JPG cannot be found in images path
+
+itime:6 - 0.064101934432983 - 0.021767854690552
+
+dbtime:97 - 0.032656669616699 - 0.010225772857666 - 24
+
+info:Skus imported OK:6/6
+
+plugin;CategoryImporter;info:On the fly category creator/importer v0.2.5 - Updating Category children count....
+
+end:Import Ended
+
+
+
+------------------------
+
+ (File: PRODUCT_HS_20190716-00604.csv)
+2019-07-18T13:10:18+00:00: warning:SKU HS1002 - Skus imported KO:2/4
+
+
+
+------------------------
+
+title:MAGMI by dweeves - version:0.7.22
+
+startup:Running Magmi Product Import Engine v1.9.1 by dweeves
+
+startup:Import Profile:NGCImportNew
+
+startup:Import Mode:create
+
+step:step:0.5%
+
+startup:Attributeset update is enabled.
+
+plugin;Magmi_CSVDataSource;pluginhello:CSV Datasource-1.3.1-Dweeves- 
+
+plugin;Magmi_OptimizerPlugin;pluginhello:Magmi Optimizer-1.0.5-Dweeves-http://wiki.magmi.org/index.php?title=Magmi_Optimizer 
+
+plugin;CategoryImporter;pluginhello:On the fly category creator/importer-0.2.5-Dweeves-http://wiki.magmi.org/index.php?title=On_the_fly_category_creator/importer 
+
+plugin;ImageAttributeItemProcessor;pluginhello:Image attributes processor-1.0.33a-Dweeves, Tommy Goode-http://wiki.magmi.org/index.php?title=Image_attributes_processor 
+
+plugin;ColumnMappingItemProcessor;pluginhello:Column mapper-0.0.3b-Dweeves-http://wiki.magmi.org/index.php?title=Column_mapper 
+
+plugin;DefaultValuesItemProcessor;pluginhello:Default Values setter-0.0.5-Dweeves-http://wiki.magmi.org/index.php?title=Default_Values_setter 
+
+plugin;ValueReplacerItemProcessor;pluginhello:Value Replacer-0.0.8a-Dweeves-http://wiki.magmi.org/index.php?title=Value_Replacer 
+
+plugin;Magmi_ConfigurableItemProcessor;pluginhello:Configurable Item processor-1.3.7a-Dweeves-http://wiki.magmi.org/index.php?title=Configurable_Item_processor 
+
+plugin;Magmi_DefaultAttributeItemProcessor;pluginhello:Standard Attribute Import-1.1-Dweeves- 
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Optimizing magmi
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Adding index MAGMI_EAOV_OPTIMIZATION_IDX on eav_attribute_option_value
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Already optmized!
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Adding index MAGMI_CPEM_OPTIMIZATION_IDX on catalog_product_entity_media_gallery
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Already optmized!
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Adding index MAGMI_CCEV_OPTIMIZATION_IDX on catalog_category_entity_varchar
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Already optmized!
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Adding index MAGMI_EA_CODE_OPTIMIZATION_IDX on eav_attribute
+
+plugin;Magmi_OptimizerPlugin;info:Magmi Optimizer v1.0.5 - Already optmized!
+
+startup:Performing Datasource Lookup...
+
+lookup:4:0.00019311904907227
+
+startup:Found 4 records, took 0.00019311904907227 sec
+
+info:Initialized attribute_set_infos!
+
+columns:31
+
+plugin;DefaultValuesItemProcessor;startup:Default Values setter v0.0.5 - Adding Columns options_container
+
+plugin;Magmi_DefaultAttributeItemProcessor;startup:Standard Attribute Import v1.1 - Newly created items will have default values for columns:page_layout
+
+startup:Ajusted processed columns:34
+
+itime:1 - 6.9141387939453E-5 - 6.9141387939453E-5
+
+dbtime:0 - 0 - 0 - 0
+
+itime:2 - 0.016934156417847 - 0.016762971878052
+
+dbtime:29 - 0.0088438987731934 - 0.0088438987731934 - 29
+
+itime:3 - 0.028460025787354 - 0.011404991149902
+
+dbtime:55 - 0.015066146850586 - 0.0062222480773926 - 26
+
+error:SKU HS1001 - 1:SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'attribute_id' cannot be null - 
+
+error:SKU HS1001 - 2:SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'attribute_id' cannot be null - ERROR ON RECORD #3
+
+itime:4 - 0.043694972991943 - 0.01511287689209
+
+dbtime:62 - 0.016684055328369 - 0.0016179084777832 - 7
+
+error:SKU HS1002 - 3:SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'attribute_id' cannot be null - 
+
+error:SKU HS1002 - 4:SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'attribute_id' cannot be null - ERROR ON RECORD #4
+
+itime:4 - 0.047774076461792 - 0.0040090084075928
+
+dbtime:69 - 0.018248796463013 - 0.0015647411346436 - 7
+
+info:Skus imported OK:2/4
+
+warning:SKU HS1002 - Skus imported KO:2/4
+
+plugin;CategoryImporter;info:On the fly category creator/importer v0.2.5 - Updating Category children count....
+
+end:Import Ended
+
+
+
+------------------------
+
+ (File: PRODUCT_HS_20190718-00409.csv)

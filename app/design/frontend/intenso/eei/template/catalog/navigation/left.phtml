@@ -1,0 +1,24 @@
+
+<ul>
+    <?php
+        /*$obj = new Mage_Catalog_Block_Navigation();
+        $storeCategories = $obj->getStoreCategories();
+        foreach ($storeCategories as $_category):*/
+		$intRootCategoryId = Mage::app()->getStore()->getRootCategoryId();
+		$_categories = Mage::getModel('catalog/category')->getCollection()
+                     ->addAttributeToSelect('name')
+                     ->addAttributeToFilter('is_active',1)
+					 ->addAttributeToFilter('include_in_menu',1)
+                     ->addUrlRewriteToResult()
+					 ->addAttributeToSort('position')
+					 ->addFieldToFilter('parent_id',$intRootCategoryId);
+    ?>
+<?php foreach($_categories as $_category): ?>
+
+
+
+            <li>
+				<a href="<?php echo $_category->getUrl($_category); ?>"><?php echo $_category->getName(); ?></a>
+            </li>
+  <?php endforeach; ?>
+</ul>

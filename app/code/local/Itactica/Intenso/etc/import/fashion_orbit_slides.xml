@@ -1,0 +1,259 @@
+<root>
+	<democontent>
+		<item>
+			<title>Fashion Theme Slide 1</title>
+			<filename_for_large>/image-slider-fashion-1-large.jpg</filename_for_large>
+			<filename_for_medium>/image-slider-fashion-1-medium.jpg</filename_for_medium>
+			<filename_for_small>/image-slider-fashion-1-small.jpg</filename_for_small>
+			<image_link></image_link>
+			<navigation_skin>2</navigation_skin>
+			<text_block_alignment>left</text_block_alignment>
+			<custom_alignment></custom_alignment>
+			<vertical_alignment>0</vertical_alignment>
+			<text_block_top></text_block_top>
+			<title_for_large><![CDATA[So Many Different Options]]></title_for_large>
+			<title_for_large_color>#000000</title_for_large_color>
+			<title_for_large_size>48</title_for_large_size>
+			<title_for_large_style>normal</title_for_large_style>
+			<title_for_large_weight>lighter</title_for_large_weight>
+			<text_for_large><![CDATA[The most common requests from Magento merchants incorporated into one platform that extends Magento with many "Essential Extra Features"]]></text_for_large>
+			<text_for_large_color>#000000</text_for_large_color>
+			<text_for_large_size>20</text_for_large_size>
+			<text_for_large_style>normal</text_for_large_style>
+			<text_for_large_weight>lighter</text_for_large_weight>
+			<text_block_color_for_small>#dee1d7</text_block_color_for_small>
+			<title_for_small><![CDATA[So Many Different Options]]></title_for_small>
+			<title_for_small_color>#000000</title_for_small_color>
+			<title_for_small_size>24</title_for_small_size>
+			<title_for_small_style>normal</title_for_small_style>
+			<title_for_small_weight>lighter</title_for_small_weight>
+			<text_for_small><![CDATA[The most common requests from Magento merchants incorporated into one platform that extends Magento with many "Essential Extra Features"]]></text_for_small>
+			<text_for_small_color>#000000</text_for_small_color>
+			<text_for_small_size>14</text_for_small_size>
+			<text_for_small_style>normal</text_for_small_style>
+			<text_for_small_weight>lighter</text_for_small_weight>
+			<button_one_text><![CDATA[Get Intenso Now!]]></button_one_text>
+			<button_one_style>normal</button_one_style>
+			<button_one_size>normal</button_one_size>
+			<button_one_link>#</button_one_link>
+			<button_one_text_color>#ffffff</button_one_text_color>
+			<button_one_text_color_hover>#f42156</button_one_text_color_hover>
+			<button_one_background>#f42156</button_one_background>
+			<button_one_background_hover>#ffffff</button_one_background_hover>
+			<button_two_text><![CDATA[Learn More]]></button_two_text>
+			<button_two_style>ghost</button_two_style>
+			<button_two_size>normal</button_two_size>
+			<button_two_link>#</button_two_link>
+			<button_two_text_color>#ffffff</button_two_text_color>
+			<button_two_text_color_hover>#f42156</button_two_text_color_hover>
+			<button_two_background>#ffffff</button_two_background>
+			<button_two_background_hover>#f42156</button_two_background_hover>
+			<status>1</status>
+			<stores><item>0</item></stores>
+		</item>
+		<item>
+			<title>Fashion Theme Slide 2</title>
+			<filename_for_large>/image-slider-fashion-2-large.jpg</filename_for_large>
+			<filename_for_medium>/image-slider-fashion-2-medium.jpg</filename_for_medium>
+			<filename_for_small>/image-slider-fashion-2-small.jpg</filename_for_small>
+			<image_link></image_link>
+			<navigation_skin>2</navigation_skin>
+			<text_block_alignment>left</text_block_alignment>
+			<custom_alignment></custom_alignment>
+			<vertical_alignment>0</vertical_alignment>
+			<text_block_top></text_block_top>
+			<title_for_large><![CDATA[Magento<br>Re-Imagined]]></title_for_large>
+			<title_for_large_color>#ffffff</title_for_large_color>
+			<title_for_large_size>48</title_for_large_size>
+			<title_for_large_style>normal</title_for_large_style>
+			<title_for_large_weight>lighter</title_for_large_weight>
+			<text_for_large><![CDATA[Easily create an engaging, mobile-ready, e-commerce website. Radically simple and easy to customize.]]></text_for_large>
+			<text_for_large_color>#ffffff</text_for_large_color>
+			<text_for_large_size>20</text_for_large_size>
+			<text_for_large_style>normal</text_for_large_style>
+			<text_for_large_weight>lighter</text_for_large_weight>
+			<text_block_color_for_small>#464d54</text_block_color_for_small>
+			<title_for_small><![CDATA[Magento Re-Imagined]]></title_for_small>
+			<title_for_small_color>#ffffff</title_for_small_color>
+			<title_for_small_size>24</title_for_small_size>
+			<title_for_small_style>normal</title_for_small_style>
+			<title_for_small_weight>lighter</title_for_small_weight>
+			<text_for_small><![CDATA[Easily create an engaging, mobile-ready, e-commerce website. Radically simple and easy to customize.]]></text_for_small>
+			<text_for_small_color>#c9c9c9</text_for_small_color>
+			<text_for_small_size>14</text_for_small_size>
+			<text_for_small_style>normal</text_for_small_style>
+			<text_for_small_weight>lighter</text_for_small_weight>
+			<button_one_text><![CDATA[Get Started]]></button_one_text>
+			<button_one_style>ghost</button_one_style>
+			<button_one_size>normal</button_one_size>
+			<button_one_link>#</button_one_link>
+			<button_one_text_color>#ffffff</button_one_text_color>
+			<button_one_text_color_hover>#f42156</button_one_text_color_hover>
+			<button_one_background>#ffffff</button_one_background>
+			<button_one_background_hover>#f42156</button_one_background_hover>
+			<button_two_text><![CDATA[Learn More]]></button_two_text>
+			<button_two_style>normal</button_two_style>
+			<button_two_size>normal</button_two_size>
+			<button_two_link>#</button_two_link>
+			<button_two_text_color>#ffffff</button_two_text_color>
+			<button_two_text_color_hover>#f42156</button_two_text_color_hover>
+			<button_two_background>#f42156</button_two_background>
+			<button_two_background_hover>#ffffff</button_two_background_hover>
+			<status>1</status>
+			<stores><item>0</item></stores>
+		</item>
+		<item>
+			<title>Fashion Theme Slide 3</title>
+			<filename_for_large>/image-slider-fashion-3-large.jpg</filename_for_large>
+			<filename_for_medium>/image-slider-fashion-3-medium.jpg</filename_for_medium>
+			<filename_for_small>/image-slider-fashion-3-small.jpg</filename_for_small>
+			<image_link></image_link>
+			<navigation_skin>2</navigation_skin>
+			<text_block_alignment>right</text_block_alignment>
+			<custom_alignment></custom_alignment>
+			<vertical_alignment>0</vertical_alignment>
+			<text_block_top></text_block_top>
+			<title_for_large><![CDATA[Build Modern & Mobile Friendly Stores]]></title_for_large>
+			<title_for_large_color>#ffffff</title_for_large_color>
+			<title_for_large_size>48</title_for_large_size>
+			<title_for_large_style>normal</title_for_large_style>
+			<title_for_large_weight>lighter</title_for_large_weight>
+			<text_for_large><![CDATA[Combine the power of Magento with a multi-purpose theme that has been meticulously considered and pixel-precision designed to be beautiful and responsive.]]></text_for_large>
+			<text_for_large_color>#f0f0f0</text_for_large_color>
+			<text_for_large_size>20</text_for_large_size>
+			<text_for_large_style>normal</text_for_large_style>
+			<text_for_large_weight>lighter</text_for_large_weight>
+			<text_block_color_for_small>#000000</text_block_color_for_small>
+			<title_for_small><![CDATA[Build Modern & Mobile Friendly Stores]]></title_for_small>
+			<title_for_small_color>#ffffff</title_for_small_color>
+			<title_for_small_size>24</title_for_small_size>
+			<title_for_small_style>normal</title_for_small_style>
+			<title_for_small_weight>lighter</title_for_small_weight>
+			<text_for_small><![CDATA[Intenso - a multi-purpose theme that has been meticulously considered and pixel-precision designed to be beautiful and responsive.]]></text_for_small>
+			<text_for_small_color>#c9c9c9</text_for_small_color>
+			<text_for_small_size>14</text_for_small_size>
+			<text_for_small_style>normal</text_for_small_style>
+			<text_for_small_weight>lighter</text_for_small_weight>
+			<button_one_text><![CDATA[Get it Now!]]></button_one_text>
+			<button_one_style>normal</button_one_style>
+			<button_one_size>normal</button_one_size>
+			<button_one_link>#</button_one_link>
+			<button_one_text_color>#ffffff</button_one_text_color>
+			<button_one_text_color_hover>#f42156</button_one_text_color_hover>
+			<button_one_background>#f42156</button_one_background>
+			<button_one_background_hover>#ffffff</button_one_background_hover>
+			<button_two_text><![CDATA[Learn More]]></button_two_text>
+			<button_two_style>ghost</button_two_style>
+			<button_two_size>normal</button_two_size>
+			<button_two_link>#</button_two_link>
+			<button_two_text_color>#ffffff</button_two_text_color>
+			<button_two_text_color_hover>#f42156</button_two_text_color_hover>
+			<button_two_background>#ffffff</button_two_background>
+			<button_two_background_hover>#f42156</button_two_background_hover>
+			<status>1</status>
+			<stores><item>0</item></stores>
+		</item>
+		<item>
+			<title>Men Category Hero</title>
+			<filename_for_large>/banner-category-men-large.jpg</filename_for_large>
+			<filename_for_medium>/banner-category-men-medium.jpg</filename_for_medium>
+			<filename_for_small>/banner-category-men-small.jpg</filename_for_small>
+			<image_link></image_link>
+			<navigation_skin>1</navigation_skin>
+			<text_block_alignment>custom</text_block_alignment>
+			<custom_alignment>48</custom_alignment>
+			<vertical_alignment>0</vertical_alignment>
+			<text_block_top></text_block_top>
+			<title_for_large><![CDATA[Take your Outfit<br>to the Next Level]]></title_for_large>
+			<title_for_large_color>#000000</title_for_large_color>
+			<title_for_large_size>34</title_for_large_size>
+			<title_for_large_style>normal</title_for_large_style>
+			<title_for_large_weight>300</title_for_large_weight>
+			<text_for_large><![CDATA[See What's New.]]></text_for_large>
+			<text_for_large_color>#777777</text_for_large_color>
+			<text_for_large_size>20</text_for_large_size>
+			<text_for_large_style>normal</text_for_large_style>
+			<text_for_large_weight>lighter</text_for_large_weight>
+			<text_block_color_for_small>#dbdbdb</text_block_color_for_small>
+			<title_for_small><![CDATA[Take your Outfit to the Next Level]]></title_for_small>
+			<title_for_small_color>#000000</title_for_small_color>
+			<title_for_small_size>24</title_for_small_size>
+			<title_for_small_style>normal</title_for_small_style>
+			<title_for_small_weight>300</title_for_small_weight>
+			<text_for_small><![CDATA[See What's New.]]></text_for_small>
+			<text_for_small_color>#777777</text_for_small_color>
+			<text_for_small_size>14</text_for_small_size>
+			<text_for_small_style>normal</text_for_small_style>
+			<text_for_small_weight>lighter</text_for_small_weight>
+			<button_one_text><![CDATA[Shop new arrivals]]></button_one_text>
+			<button_one_style>ghost</button_one_style>
+			<button_one_size>normal</button_one_size>
+			<button_one_link>#</button_one_link>
+			<button_one_text_color>#F42156</button_one_text_color>
+			<button_one_text_color_hover>#000000</button_one_text_color_hover>
+			<button_one_background>#F42156</button_one_background>
+			<button_one_background_hover>#000000</button_one_background_hover>
+			<button_two_text></button_two_text>
+			<button_two_style>normal</button_two_style>
+			<button_two_size>normal</button_two_size>
+			<button_two_link>#</button_two_link>
+			<button_two_text_color>#ffffff</button_two_text_color>
+			<button_two_text_color_hover>#F42156</button_two_text_color_hover>
+			<button_two_background>#ffffff</button_two_background>
+			<button_two_background_hover>#F42156</button_two_background_hover>
+			<status>1</status>
+			<stores><item>0</item></stores>
+		</item>
+		<item>
+			<title>Women Category Hero - Fashion Store</title>
+			<filename_for_large>/banner-category-women-large.jpg</filename_for_large>
+			<filename_for_medium>/banner-category-women-medium.jpg</filename_for_medium>
+			<filename_for_small>/banner-category-women-small.jpg</filename_for_small>
+			<image_link></image_link>
+			<navigation_skin>1</navigation_skin>
+			<text_block_alignment>custom</text_block_alignment>
+			<custom_alignment>48</custom_alignment>
+			<vertical_alignment>0</vertical_alignment>
+			<text_block_top></text_block_top>
+			<title_for_large><![CDATA[Meet Your New<br>Favorite Jeans]]></title_for_large>
+			<title_for_large_color>#000000</title_for_large_color>
+			<title_for_large_size>34</title_for_large_size>
+			<title_for_large_style>normal</title_for_large_style>
+			<title_for_large_weight>300</title_for_large_weight>
+			<text_for_large><![CDATA[The Hottest Fits. Authentic Washes.]]></text_for_large>
+			<text_for_large_color>#777777</text_for_large_color>
+			<text_for_large_size>20</text_for_large_size>
+			<text_for_large_style>normal</text_for_large_style>
+			<text_for_large_weight>lighter</text_for_large_weight>
+			<text_block_color_for_small>#dbdbdb</text_block_color_for_small>
+			<title_for_small><![CDATA[Meet Your New Favorite Jeans]]></title_for_small>
+			<title_for_small_color>#000000</title_for_small_color>
+			<title_for_small_size>24</title_for_small_size>
+			<title_for_small_style>normal</title_for_small_style>
+			<title_for_small_weight>300</title_for_small_weight>
+			<text_for_small><![CDATA[The Hottest Fits. Authentic Washes.]]></text_for_small>
+			<text_for_small_color>#777777</text_for_small_color>
+			<text_for_small_size>14</text_for_small_size>
+			<text_for_small_style>normal</text_for_small_style>
+			<text_for_small_weight>lighter</text_for_small_weight>
+			<button_one_text><![CDATA[Shop now]]></button_one_text>
+			<button_one_style>ghost</button_one_style>
+			<button_one_size>normal</button_one_size>
+			<button_one_link>#</button_one_link>
+			<button_one_text_color>#f42156</button_one_text_color>
+			<button_one_text_color_hover>#000000</button_one_text_color_hover>
+			<button_one_background>#f42156</button_one_background>
+			<button_one_background_hover>#000000</button_one_background_hover>
+			<button_two_text></button_two_text>
+			<button_two_style>normal</button_two_style>
+			<button_two_size>normal</button_two_size>
+			<button_two_link>#</button_two_link>
+			<button_two_text_color>#ffffff</button_two_text_color>
+			<button_two_text_color_hover>#f42156</button_two_text_color_hover>
+			<button_two_background>#ffffff</button_two_background>
+			<button_two_background_hover>#f42156</button_two_background_hover>
+			<status>1</status>
+			<stores><item>0</item></stores>
+		</item>
+	</democontent>
+</root>

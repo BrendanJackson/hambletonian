@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<config>
+	<tabs>
+        <linkedretail translate="label" module="linkedretail_liquidpixels">
+            <label>Linked Retail</label>
+            <sort_order>1</sort_order>
+        </linkedretail>
+    </tabs>
+	<sections>
+		<linkedretail_liquidpixels module="linkedretail_liquidpixels">
+			<label>Liquid Pixels</label>
+			<tab>linkedretail</tab>
+			<sort_order>100</sort_order>
+			<show_in_default>1</show_in_default>
+			<show_in_website>1</show_in_website>
+			<show_in_store>1</show_in_store>
+
+			<groups>
+				<settings translate="label" module="linkedretail_liquidpixels">
+					<label>Settings</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>10</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <comment></comment>
+
+                    <fields>
+                        <liquifire_url>
+                        	<label>LiquiFire URL</label>
+                        	<frontend_type>text</frontend_type>
+                        	<sort_order>20</sort_order>
+                        	<show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment>Please enter your LiquiFire URL provide to you during training (ie: http://company.orb.liquifire.com)</comment>
+                        </liquifire_url>
+                    </fields>
+				</settings>
+			</groups>
+		</linkedretail_liquidpixels>
+	</sections>
+</config>

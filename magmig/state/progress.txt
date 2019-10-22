@@ -1,0 +1,21 @@
+title:MAGMI by dweeves - version:0.7.22
+startup:Running Magmi Product Import Engine v1.9.1 by dweeves
+startup:Import Profile:default
+startup:Import Mode:update
+step:step:0.5%
+startup:Attributeset update is enabled.
+plugin;Magmi_CSVDataSource;pluginhello:CSV Datasource-1.3.1-Dweeves- 
+plugin;Magmi_ReindexingPlugin;pluginhello:Magmi Magento Reindexer-1.0.3a-Dweeves-http://wiki.magmi.org/index.php?title=Magmi_Magento_Reindexer 
+plugin;Magmi_ReindexingPlugin;startup:Magmi Magento Reindexer v1.0.3a - Using execution mode :popen
+plugin;Magmi_DefaultAttributeItemProcessor;pluginhello:Standard Attribute Import-1.1-Dweeves- 
+plugin;Magmi_CSVDataSource;startup:CSV Datasource v1.3.1 - Fetching CSV: http://www.pnevmatike.com/y/test.csv
+startup:Performing Datasource Lookup...
+lookup:-1:7.4148178100586E-5
+startup:Found -1 records, took 7.4148178100586E-5 sec
+warning:No Records returned by datasource
+plugin;Magmi_ReindexingPlugin;info:Magmi Magento Reindexer v1.0.3a - Cleaning flat tables before reindex...
+plugin;Magmi_ReindexingPlugin;info:Magmi Magento Reindexer v1.0.3a - running indexer
+plugin;Magmi_ReindexingPlugin;info:Magmi Magento Reindexer v1.0.3a - Reindexing ....
+plugin;Magmi_ReindexingPlugin;info:Magmi Magento Reindexer v1.0.3a - shell/indexer.php --reindex<br>
+plugin;Magmi_ReindexingPlugin;info:Magmi Magento Reindexer v1.0.3a - done in 0.9 secs
+end:Import Ended

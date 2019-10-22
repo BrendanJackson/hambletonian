@@ -1,0 +1,30 @@
+<?php
+/**
+ * Intenso Premium Theme
+ *
+ * @category    design
+ * @package     intenso_default
+ * @copyright   Copyright (c) 2014 Itactica (http://www.itactica.com)
+ * @license     http://getintenso.com/license
+ */
+?>
+<?php if($this->getMessagesBlock()->getMessageCollection()->count()): ?>
+    <div id="reveal-messages" class="reveal-modal" data-reveal>
+        <div class="close-reveal-modal"></div>
+		<?php $action = Mage::app()->getFrontController()->getAction()->getFullActionName(); ?>
+        <?php echo $this->getMessagesBlock()->getGroupedHtml(); ?>
+        <?php if ( $action == 'checkout_cart_index' OR $action == 'catalog_product_view'){ ?>
+        <div class="modal-action">
+        	<a class="button" onclick="jQuery('#reveal-messages').foundation('reveal', 'close');"><?php echo $this->__('Continue Shopping'); ?></a>
+        	<!--a href="<?php echo Mage::helper('checkout/url')->getCheckoutUrl(); ?>" class="button"><?php echo $this->__('Proceed to Checkout'); ?></a-->
+        	<a href="<?php echo Mage::helper('checkout/url')->getCartUrl(); ?>" class="button secondary" ><?php echo $this->__('View Cart'); ?></a>
+        </div>
+    	<?php } else { ?>
+    	<div class="modal-action"><a class="button" onclick="jQuery('#reveal-messages').foundation('reveal', 'close');"><?php echo $this->__('Accept'); ?></a></div>
+    	<?php } ?>
+        <?php if (Mage::getStoreConfig('intenso/global_messages/auto_dismiss_modal', Mage::app()->getStore())): ?>
+        <div id="dismiss-bar" class="progressbar" data-time="<?php echo Mage::getStoreConfig('intenso/global_messages/time', Mage::app()->getStore()); ?>s"></div>
+        <?php endif; ?>
+    </div>
+<?php $this->getMessagesBlock()->getMessageCollection()->clear(); ?>
+<?php endif; ?>

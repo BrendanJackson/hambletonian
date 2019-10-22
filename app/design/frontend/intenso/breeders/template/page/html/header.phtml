@@ -1,0 +1,114 @@
+<?php
+/**
+ * Intenso Premium Theme
+ *
+ * @category    design
+ * @package     intenso_default
+ * @copyright   Copyright (c) 2014-2016 Itactica (http://www.itactica.com)
+ * @license     http://getintenso.com/license
+ */
+/**
+ * @var Mage_Page_Block_Html_Header $this
+ */
+?>
+<?php $themeHelper = Mage::helper('itactica_intenso'); ?>
+<?php $smallLogo = ($this->getLogoSrcSmall()) ? $this->getLogoSrcSmall() : $this->getLogoSrc(); ?>
+<?php $isStickyEnabled = $themeHelper->stickyMenuUrl(); ?>
+<?php $isStoreSwitchEnabled = $themeHelper->storeSwitcher();
+$_menu = $this->getHtml('level-top');
+$_linksArray = @unserialize(Mage::getStoreConfig('intenso/header/main_menu_links', Mage::app()->getStore()));
+$_offcanvasLinksArray = @unserialize(Mage::getStoreConfig('intenso/header/mobile_offcanvas_links', Mage::app()->getStore()));
+?>
+<header class="main-header<?php if ($themeHelper->stickyMenu()): ?> sticky-menu<?php endif; ?>">
+    <?php if ($themeHelper->secMenuTop() && $themeHelper->showSecondaryMenu()): ?>
+    <div class="row header-ribbon show-for-medium-up">
+		<div class="medium-12 columns">
+			<div class="header-ribbon-wrap">
+						<?php echo $this->getChildHtml('currency_selector') ?>
+				<?php echo $this->getChildHtml('store_language') ?>
+				<?php if ($isStoreSwitchEnabled) echo $this->getChildHtml('store_switcher') ?>
+				<span class="welcome-message"><?php echo $themeHelper->getAdditionalInfo(); ?></span>
+				<?php echo $this->getChildHtml('sec_menu_links') ?>	
+				<ul class="hide-for-small-only ribbon-links">
+					<li>
+						<a title="<?php echo $this->__('Your Account'); ?>" href="<?php if (Mage::getSingleton('customer/session')->isLoggedIn()) { echo $this->getUrl('customer/account'); } else { echo Mage::helper('customer')->getLoginUrl(); } ?>">
+						<?php if (Mage::getSingleton('customer/session')->isLoggedIn()): ?><?php echo $this->__('Your Account'); ?>
+						<?php else: ?><?php echo $this->__('Sign in'); ?><?php endif; ?>					
+						</a>
+					</li>
+					<li class="has-dropdown hide-for-small-only">
+						<a title="<?php echo $this->__('Cart'); ?>" href="<?php echo $this->getUrl('checkout/cart'); ?>"><?php echo $this->__('Cart'); ?>: <?php echo trim($this->getChildHtml('cart_summary')); ?> Items</a>
+					</li>
+				</ul>		
+			</div>
+		</div>	
+    </div>
+    <?php endif; ?>
+    <div class="hide-for-small-only row top-header">
+        <div class="small-6 medium-0 medium-push-12 large-0 large-push-12 show-for-small-only icons-for-small columns text-right">
+            <?php if (!$themeHelper->secMenuTop()): ?>
+            <div class="welcome-message show-for-medium-up"><?php echo $themeHelper->getAdditionalInfo(); ?></div>
+            <?php endif; ?>
+            <a href="#" class="right-off-canvas-toggle show-for-small-only icon-main-menu"></a> <a href="<?php echo $this->getUrl('checkout/cart'); ?>" class="hide-for-large-up icon-cart"></a> <a href="<?php echo $this->getUrl('customer/account'); ?>" class="show-for-medium-only icon-user"></a>
+        </div>
+        <div class="medium-12 large-12 medium-pull-0 large-pull-0 columns">
+		<div class="logo-container">
+            <a href="<?php echo $this->getUrl('') ?>">
+                <img class="main-logo" src="<?php echo $this->getLogoSrc() ?>" alt="<?php echo $this->getLogoAlt() ?>" title="<?php echo $this->getLogoAlt() ?>" />
+                <img class="main-logo-small" src="<?php echo $smallLogo ?>" alt="<?php echo $this->getLogoAlt() ?>" title="<?php echo $this->getLogoAlt() ?>" />
+                <?php if (!empty($isStickyEnabled)): ?>
+                <?php $stickyLogo = $this->getSkinUrl($themeHelper->stickyMenuUrl()); ?>
+                <img class="main-logo-sticky" src="<?php echo $stickyLogo ?>" alt="<?php echo $this->getLogoAlt() ?>" title="<?php echo $this->getLogoAlt() ?>" />
+                <?php endif; ?>
+            </a>
+		</div>
+            <?php echo $this->getChildHtml('topMenu') ?>
+			
+        </div>
+    </div>
+	<div class="row top-header show-for-small-only">
+        <div class="small-6 medium-2 large-2 logo-container columns">
+            <a href="<?php echo $this->getUrl('') ?>">
+                <img class="main-logo" src="<?php echo $this->getLogoSrc() ?>" alt="<?php echo $this->getLogoAlt() ?>" title="<?php echo $this->getLogoAlt() ?>" />
+                <img class="main-logo-small" src="<?php echo $smallLogo ?>" alt="<?php echo $this->getLogoAlt() ?>" title="<?php echo $this->getLogoAlt() ?>" />
+                <?php if (!empty($isStickyEnabled)): ?>
+                <?php $stickyLogo = $this->getSkinUrl($themeHelper->stickyMenuUrl()); ?>
+                <img class="main-logo-sticky" src="<?php echo $stickyLogo ?>" alt="<?php echo $this->getLogoAlt() ?>" title="<?php echo $this->getLogoAlt() ?>" />
+                <?php endif; ?>
+            </a>
+        </div>
+        <div class="small-6 medium-3 medium-push-7 large-3 large-push-7 icons-for-small columns text-right">
+            <?php if (!$themeHelper->secMenuTop()): ?>
+            <div class="welcome-message show-for-medium-up"><?php echo $themeHelper->getAdditionalInfo(); ?></div>
+            <?php endif; ?>
+            <a href="#" class="right-off-canvas-toggle show-for-small-only icon-main-menu"></a> <a href="<?php echo $this->getUrl('checkout/cart'); ?>" class="hide-for-large-up icon-cart"></a> <a href="<?php echo $this->getUrl('customer/account'); ?>" class="show-for-medium-only icon-user"></a>
+        </div>
+        <div class="medium-7 large-7 medium-pull-3 large-pull-3 columns">
+            <?php $catalogSearchHelper =  $this->helper('catalogsearch'); ?>
+            <form method="get" action="<?php echo $catalogSearchHelper->getResultUrl() ?>" id="search_mini_form">
+                <div class="form-search">
+                    <div class="action">
+                        <button class="button" title="Search" type="submit"><span aria-hidden="true" class="icon-search"></span></button>
+                        <?php if (!$themeHelper->secMenuTop() && $themeHelper->showSecondaryMenu()): ?>
+                            <div class="hide-for-small-only sec-menu icon-sec-menu">
+                                <!-- Secondary menu dropdown -->
+                                <div class="sec-menu-dropdown">
+                                    <div class="arrow-box">
+                                        <?php if ($isStoreSwitchEnabled) echo $this->getChildHtml('store_switcher') ?>
+                                        <?php echo $this->getChildHtml('store_language') ?>
+                                        <?php echo $this->getChildHtml('currency_selector') ?>
+                                        <?php echo $this->getChildHtml('sec_menu_links') ?>
+                                    </div>
+                                </div>
+                            </div>
+                        <?php endif; ?>
+                    </div>
+                    <?php echo $this->getChildHtml('topSearch') ?>
+                </div>
+            </form>
+        </div>
+    </div>
+	<div class=" show-for-small-only">
+    <?php echo $this->getChildHtml('topMenu') ?>	
+	</div>
+</header>
