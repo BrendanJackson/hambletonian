@@ -164,7 +164,7 @@ function write_error($text){
 	}
 	file_put_contents($error_log, $text.PHP_EOL , FILE_APPEND);
 	saveLastFile($new_file);
-	mail('drufty@elinkdesign.com,bhagedorn@elinkdesign.com','URM Import Error: ' . strtoupper($sitecode) . ' - ' . $new_file,$text);
+	mail('brendan@upperrm.com','URM Import Error: ' . strtoupper($sitecode) . ' - ' . $new_file,$text);
 	exit($text);
 }
 
@@ -172,7 +172,7 @@ function write_warning($text){
 	global $new_file,$sitecode,$error_log,$ok_log;
 	$text = date('c') . ': ' . $text . ' (File: ' . $new_file . ')';
 	file_put_contents($error_log, $text.PHP_EOL , FILE_APPEND);
-	mail('drufty@elinkdesign.com,bhagedorn@elinkdesign.com','URM Import Warning: ' . strtoupper($sitecode) . ' - ' . $new_file,$text);
+	mail('brendan@upperrm.com','URM Import Warning: ' . strtoupper($sitecode) . ' - ' . $new_file,$text);
 }
 
 function write_log($text,$email=false) {
@@ -184,7 +184,7 @@ function write_log($text,$email=false) {
 	$text = date('c') . ': ' . $text;
 	file_put_contents($ok_log, $text.PHP_EOL , FILE_APPEND);	
 	if($email){
-		mail('drufty@elinkdesign.com,bhagedorn@elinkdesign.com','URM Import Done: ' . strtoupper($sitecode) . ' - ' . $modetrans[$mode] . ' - ' . $new_file,$text);
+		mail('brendan@upperrm.com','URM Import Done: ' . strtoupper($sitecode) . ' - ' . $modetrans[$mode] . ' - ' . $new_file,$text);
 	}
 }
 
